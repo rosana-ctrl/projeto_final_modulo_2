@@ -20,21 +20,31 @@
     align-items: center;
 }
 
-.intro{
+.intro {
     background-image: url(../images/Background2.svg);
     background-size: cover;
 }
 
-.nav-link{
-    color: #32D4E7;
+.middle {
+    background-image: url(../images/Background1.svg);
+    background-size: cover;
+
 }
 
-h1{
+.planos {
+    background-color: #000102;
+}
+
+h1 {
     color: #FFFFFF;
 }
 
 li {
     list-style-type: none;
+}
+
+a {
+    color: #32D4E7;
 }
 
 footer {
