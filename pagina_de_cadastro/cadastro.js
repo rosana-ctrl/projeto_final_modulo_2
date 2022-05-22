@@ -33,3 +33,16 @@ $(document).ready(function () {
         }
     });
 });
+
+$("#btnSubmit").click(function (e) {
+    e.preventDefault();
+
+    if ($("#registrationForm").valid()) {
+        cadastroConcluido()
+        $("#registrationForm field").val("");
+    }
+});
+
+function cadastroConcluido() {
+    alert('Cadastro concluído com sucesso')
+}

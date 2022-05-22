@@ -1,5 +1,5 @@
 body {
-    background-image: url(./Background1.png);
+    background-image: url(../images/background1.png);
     font-family: 'Inter', sans-serif;
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,6 +19,7 @@ body {
     border-color: #0E3347;
     width: max-content;
     background-color: black;
+    border: solid 2px;
 }
 
 .div_submit {
@@ -39,7 +40,6 @@ textarea::placeholder {
 }
 
 .float-container {
-
     display: flex;
     flex-direction: row;
     margin-top: 50px;
