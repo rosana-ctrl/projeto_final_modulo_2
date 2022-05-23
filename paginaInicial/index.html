@@ -6,17 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="imagem/png" href="./images/icon.png">
-    <title>CODE C</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <link rel="stylesheet" href="./CSS/styleIndex.css">
+    <title>CODE C</title>
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <header id="navbar">
+        <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand" href="./index.html">
-                <img class="logo" src="./images/logo.png" alt="">
+                <h1>CODE C</h1>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,38 +41,37 @@
     <main>
         <section class="intro">
             <div class="container">
-                <h1> Bem vindos ao CODE C!</h1>
-
+                <img src="./images/logo.png">
+                <div class="containerPart">
+                    <h2>Seja bem-vindo ao CODE C!</h2>
+                    <p class="pitch">Ferramenta acessível de análise de código.<br>Venha fazer parte desta
+                        <strong>comunidade!</strong></p>
+                </div>
             </div>
-
         </section>
-        <section class="planos">
+        <section class="cards">
             <div class="card-deck">
                 <div class="card">
-                    <img src="./images/carrosel1.jpg" class="card-img-top" alt="...">
+                    <img src="./images/Pricing plans.svg" class="card-img-top" alt="Nossos planos">
                     <div class="card-body">
-                        <h5 class="card-title">Aprendizado</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
+                        <h5 class="card-title"><strong>Conheça os planos Code C</strong></h5>
+                        <p class="card-text">Planos completos e diferenciados para a sua educação e o melhor, com valores que cabem no seu bolso!</p>
                         <p class="card-text"><small class="text-muted"></small></p>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="./images/carrosel2.jpg" class="card-img-top" alt="...">
+                    <img src="./images/JavaScript frameworks.svg" class="card-img-top2" alt="Nossas linguagens">
                     <div class="card-body">
-                        <h5 class="card-title">Conectividade</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                            content.</p>
+                        <h5 class="card-title"><strong>Conheça as linguagens</strong></h5>
+                        <p class="card-text">Contamos com soluções completas para as linguagens mais usadas no mercado de trabalho.</p>
                         <p class="card-text"><small class="text-muted"></small></p>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="./images/carrosel3.jpg" class="card-img-top" alt="...">
+                    <img src="./images/solution-cuate.svg" class="card-img-top2" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Soluções</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This card has even longer content than the first to show that equal
-                            height action.</p>
+                        <h5 class="card-title"><strong>Soluções em um só lugar</strong></h5>
+                        <p class="card-text">Faça parte ou contribua com sua ajuda a nossa comunidade. Porque juntos somos mais!</p>
                         <p class="card-text"><small class="text-muted"></small></p>
                     </div>
                 </div>
@@ -75,11 +79,48 @@
 
         </section>
         <section class="middle">
-            <div class="container">
-                <button type="button" class="btn btn-primary btn-lg">Entrar para lista de espera</button>
+            <div class="languages">
+                <h3>Conheça as linguagens que trabalhamos</h3>
+                <ul class="lista">
+                    <li>
+                        <img class="limg" src="./images/language-c-plus-plus.svg" alt="">       
+                    </li>
+                    <li>
+                        <img class="limg" src="./images/language-csharp.svg" alt="">       
+                    </li>
+                    <li>
+                        <img class="limg" src="./images/language-css.svg" alt="">       
+                    </li>
+                    <li>
+                        <img class="limg" src="./images/language-go.svg" alt="">       
+                    </li>
+                    <li>
+                        <img class="limg" src="./images/language-html5.svg" alt=""> 
+                    </li>
+                    <li>
+                        <img class="limg" src="./images/language-java.svg" alt="">       
+                    </li>
+                    <li>
+                        <img class="limg" src="./images/language-js.svg" alt="">       
+                    </li>
+                    <li>
+                        <img class="limg" src="./images/language-php.svg" alt="">       
+                    </li>
+                    <li>
+                        <img class="limg" src="./images/language-python.svg" alt="">       
+                    </li>
+                    <li>
+                        <img class="limg" src="./images/language-ts.svg" alt="">       
+                    </li>
+                </ul>
 
             </div>
+        </section>
+        <section class="end">
+            <div class="container">
+                <button type="button" class="btn btn-primary btn-lg">ENTRAR PARA A LISTA DE ESPERA</button>
 
+            </div>
         </section>
 
     </main>
@@ -90,23 +131,28 @@
                 <img class="icone" src="./images/icon.png">
                 <h6>© 2022 Code C <br> Todos os direitos reservados</h6>
             </div>
-            <ul type="">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Download</a></li>
+            <div class="f2">
+            <ul>
+                <li><p>SERVIÇO</p></li>
+                <li><a href="#">Sobre nós</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Parcerias</a></li>
             </ul>
             <ul>
-                <li><a href="#">Sobre nós</a></li>
+                <li><p>CONTEÚDOS</p></li>
+                <li><a href="#">Documentação</a></li>
                 <li><a href="#">Informações</a></li>
                 <li><a href="#">Blog</a></li>
-                <li><a href="#">Contato</a></li>
+                
             </ul>
             <ul>
+                <li><p>SAC</p></li>
                 <li><a href="#">Suporte</a></li>
-                <li><a href="#">FAQ</a></li>
                 <li><a href="#">Telefones</a></li>
                 <li><a href="#">Chat</a></li>
             </ul>
+            </div>
         </footer>
     </div>
 

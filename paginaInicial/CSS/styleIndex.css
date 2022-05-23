@@ -4,38 +4,24 @@
     box-sizing: 0;
 }
 
-.logo {
-    width: 100px;
+html {
+    scroll-behavior: smooth;
 }
 
-.icone {
-    height: 150px;
-}
-
-.container {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.intro {
-    background-image: url(../images/Background2.svg);
-    background-size: cover;
-}
-
-.middle {
-    background-image: url(../images/Background1.svg);
-    background-size: cover;
-
-}
-
-.planos {
-    background-color: #000102;
+body {
+    font-family: 'Inter', sans-serif;
 }
 
 h1 {
+    color: #FFFFFF;
+    font-family: 'Forum', cursive;
+}
+
+h1:hover {
+    color: #32D4E7;
+}
+
+h2 {
     color: #FFFFFF;
 }
 
@@ -47,7 +33,133 @@ a {
     color: #32D4E7;
 }
 
+a:hover {
+    color: #FFFFFF;
+}
+
+/*Header*/
+#navbar {
+    width: 100vw;
+    background-color: #000102;
+}
+
+#navbarNavAltMarkup {
+    justify-content: flex-end;
+}
+
+/*primeira sessão com logo e pitch*/
+.intro {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/Background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.containerPart {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+}
+
+.pitch {
+    color: #FFFFFF;
+}
+
+/*sessão dos cards*/
+.cards {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background-image: url(../images/Background1.svg);
+    background-size: cover;
+}
+
+.card-deck {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    border-radius: 15px;
+}
+
+.card-img-top {
+    height: 50%;
+}
+
+.card-img-top2 {
+    height: 450px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-body {
+    text-align: center;
+}
+
+
+/*sessão das linguagens*/
+.middle {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000102;
+}
+
+.languages {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    font-family: 'Forum', cursive;
+    color: #32D4E7;
+}
+
+.lista {
+    width: 35vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.limg {
+    width: 80px;
+}
+
+/*sessão final com botao*/
+.end {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000102;
+    justify-content: center;
+
+}
+
+/*footer*/
 footer {
+    width: 100vw;
+    height: 25vh;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -61,4 +173,16 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+.f2 {
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:baseline;
+    text-align: justify;
+}
+
+.icone {
+    height: 150px;
 }
