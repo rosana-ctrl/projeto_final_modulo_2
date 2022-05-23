@@ -267,6 +267,8 @@ footer {
         font-size: 45px;
     }
 
+    /*MEDIA DO FOOTER*/
+    
     footer {
         height: 100vh;
         flex-direction: column;
