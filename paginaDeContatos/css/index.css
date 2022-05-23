@@ -89,7 +89,55 @@ p {
 } 
 
 
+.forms {
+    background: #000102;
+    height: 450px;
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 3px solid #32d4e7;
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 70px;
+    
+}
 
+
+.form-contato {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+    
+}
+
+h3 {
+    text-align: center;
+}
+
+
+input {
+    margin-top: 5px;
+    border: 3px solid #32d4e7;
+    border-radius: 6px;
+    /* border-color: #32d4e7; */
+    height: 33px;
+}
+
+
+textarea {
+margin-top: 10px;
+max-height: 100px;
+min-height: 10px;
+border: 3px solid #32d4e7;
+border-radius: 5px;
+}
+
+
+button {
+    width: 150px;
+    margin-top: 10px;
+}
 
 
 
