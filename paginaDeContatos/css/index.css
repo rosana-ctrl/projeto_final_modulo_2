@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../imagens/Background.png);
+    background-size: cover;
+    width: 100%;
+    color: white;
+    font-family :  'Inter' , sem serifa;
+}
+header {
+    height: 70px;
+    background: red;
+}
+
+h2 {
+    margin-top: 45px;
+}
+
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    
+    
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 40%;
+    height: 380px;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: #32d4e7;
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 14px;
+    margin-left: 50px;
+    background-color: rgba(0 188 212 / 9%);
+
+}
+
+.conteudo:hover { 
+    transition: 2s;
+    transform: scale(1.1);
+    
+}
+
+p {
+    font-size: 12px;
+}
+
+ img {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    width:180px;
+    height: 180px;
+    border-radius: 25px;
+    padding: 10px;
+    
+}
+
+.descricao {
+    margin-top: 10px ;
+}
+
+
+
+.contato {
+    display: flex;
+    justify-content: center;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 530px;
+    margin-top: 40px;
+} 
+
+
+
+
+
+
+
+
+
