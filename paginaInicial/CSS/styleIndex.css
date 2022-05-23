@@ -63,11 +63,6 @@ a:hover {
     justify-content: space-evenly;
 }
 
-.logo {
-    width: 400px;
-    height: 300px;
-}
-
 .containerLeft {
     width: 50%;
     height: 70%;
@@ -106,7 +101,6 @@ h2 {
 
 /*sessão dos cards*/
 .cards {
-    display: flex;
     justify-content: center;
     width: 100vw;
     background-image: url(../images/Background1.svg);
@@ -117,18 +111,16 @@ h2 {
     width: 100%;
     justify-content: center;
     align-items: center;
+    margin: 0px;
 }
 
 .card {
+    height: 100vh;
     border-radius: 15px;
 }
 
 .card-img-top {
-    height: 50%;
-}
-
-.card-img-top2 {
-    height: 450px;
+    height: 42.5%;
 }
 
 .card-title {
@@ -160,20 +152,22 @@ h3 {
     font-family: 'Forum', cursive;
     color: #32D4E7;
     font-size: 40px;
+    text-align: center;
 }
 
 .lista {
-    width: 35vw;
+    width: 50vw;
     height: 50vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 50px;
 }
 
 .limg {
-    width: 80px;
+    width: 130px;
 }
 
 /*sessão final com botao*/
@@ -226,4 +220,64 @@ footer {
 
 .icone {
     height: 150px;
+}
+
+/*MEDIA QUERY*/
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .containerLeft {
+        height: 25%;
+        width: 100%;
+    }
+
+    .containerRight {
+        height: 50%;
+        width: 100%;
+        align-items: center;
+    }
+
+    h2 {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .pitch {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .card-deck {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90vw;
+    }
+
+    h3 {
+        font-size: 45px;
+    }
+
+    footer {
+        height: 100vh;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .f2 {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 }
