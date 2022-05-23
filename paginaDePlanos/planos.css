@@ -7,6 +7,7 @@ body {
 
 #pacoteColaborador, #pacoteSimples, #pacoteCompleto {
     color: #124E67;
+    font-family: 'Inter', sans-serif;
 }
 
 #btn {
@@ -16,10 +17,16 @@ body {
 
 #h1{
     color: white;
+    font-family: 'Forum', cursive;
 }
 
 #compare, #um , #dois, #tres, #quatro, #cinco, #seis, #free, #pro, #enter {
     color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+#compare {
+    font-family: 'Forum', cursive;
 }
 
 #check {
