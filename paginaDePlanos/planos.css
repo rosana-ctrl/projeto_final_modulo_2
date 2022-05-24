@@ -21,9 +21,13 @@ body {
     font-family: 'Forum', cursive;
 }
 
-#compare, #um , #dois, #tres, #quatro, #cinco, #seis, #free, #pro, #enter {
+#compare, #colab, #simp, #comp {
     color: white;
     font-family: 'Inter', sans-serif;
+}
+
+#tbody, #tbodyUm {
+    color: white;
 }
 
 #compare {
