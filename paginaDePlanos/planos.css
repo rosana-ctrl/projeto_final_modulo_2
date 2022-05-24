@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Inter:wght@300&display=swap');
+
+body {
+    background-color: #000102;
+}
+
+#pacoteColaborador, #pacoteSimples, #pacoteCompleto {
+    color: #124E67;
+    font-family: 'Inter', sans-serif;
+}
+
+#btn {
+    background-image: linear-gradient(to right, #268ba7, #32d5e7);
+    color: white;
+    border: none;
+}
+
+#h1{
+    color: white;
+    font-family: 'Forum', cursive;
+}
+
+#compare, #um , #dois, #tres, #quatro, #cinco, #seis, #free, #pro, #enter {
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+#compare {
+    font-family: 'Forum', cursive;
+}
+
+#check {
+    color: white;
+}
+
+
+/* HEADER */
+#navbar {
+    width: 100vw;
+    background-color: #000102;
+}
+
+#navbarNavAltMarkup {
+    justify-content: flex-end;
+    font-family: 'Inter', sans-serif;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(50, 212, 231)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+} /* alteração do botao hamburguer*/
+
+a {
+    color: #32D4E7;
+}
+
+a:hover {
+    color: #FFFFFF;
+}
+
+/* alterei as cores dos links e hover */
+.nav-link{
+    color: #32D4E7;
+}
+
+.nav-link:hover{
+    color: #FFFFFF;
+
+}
+
+/* FOOTER */
+footer {
+    /* width: 100vw; */
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #0E3347;
+
+}
+
+.f1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.f2 {
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:baseline;
+    text-align: justify;
+}
+
+.icone {
+    height: 150px;
+}
+
+/* botao editado teste */
+#botaoLogin {
+    background-color: #32D4E7;
+    border: none;
+}
+
+/* testes que eu fiz no hover do botao */
+#botaoLogin:hover{
+    background-color:  #FFFFFF;
+    color: #32D4E7;
+}
+.divbotao{
+    padding-right: 1em;
+    padding-left: 0.7em;
+}
+
+
+@media screen and (max-width: 768px) {
+
+footer {
+    height: 100vh;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+}
