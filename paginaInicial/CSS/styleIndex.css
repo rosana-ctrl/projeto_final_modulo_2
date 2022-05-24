@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+/*Header*/
+#navbar {
+    width: 100vw;
+    background-color: #000102;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-family: 'Forum', cursive;
+}
+
+h1:hover {
+    color: #32D4E7;
+}
+
+a {
+    color: #32D4E7;
+}
+
+a:hover {
+    color: #FFFFFF;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(50, 212, 231)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+
+/*primeira sessão com logo e pitch*/
+.intro {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/Background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.containerLeft {
+    width: 50%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.containerRight {
+    width: 50%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h2 {
+    color: #FFFFFF;
+    width: 100%;
+    display: flex;
+    text-align: justify;
+    justify-content: flex-start;
+}
+
+.pitch {
+    color: #FFFFFF;
+    width: 100%;
+    display: flex;
+    text-align: justify;
+    justify-content: flex-start;
+}
+
+/*sessão dos cards*/
+.cards {
+    justify-content: center;
+    width: 100vw;
+    background-image: url(../images/Background1.svg);
+    background-size: cover;
+}
+
+.card-deck {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.card {
+    height: 100vh;
+    border-radius: 15px;
+}
+
+.card-img-top {
+    height: 42.5%;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-body {
+    text-align: justify;
+}
+
+
+/*sessão das linguagens*/
+.middle {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000102;
+}
+
+.languages {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    font-family: 'Forum', cursive;
+    color: #32D4E7;
+    font-size: 40px;
+    text-align: center;
+}
+
+.lista {
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.limg {
+    width: 130px;
+}
+
+/*sessão final com botao*/
+.end {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000102;
+    justify-content: center;
+
+}
+
+.containerEnd {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+
+
+/*footer*/
+footer {
+    width: 100vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #0E3347;
+
+}
+
+.f1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.f2 {
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    text-align: justify;
+}
+
+.icone {
+    height: 150px;
+}
+
+/*MEDIA QUERY*/
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .containerLeft {
+        height: 25%;
+        width: 100%;
+    }
+
+    .containerRight {
+        height: 50%;
+        width: 100%;
+        align-items: center;
+    }
+
+    h2 {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .pitch {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .card-deck {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90vw;
+    }
+
+    h3 {
+        font-size: 45px;
+    }
+
+    /*MEDIA DO FOOTER*/
+    
+    footer {
+        height: 100vh;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .f2 {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
