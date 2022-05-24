@@ -67,19 +67,31 @@ a:hover {
 
 }
 
+.navbar-nav .nav-link {
+    text-align: center;
+}
+
 /* botao editado teste */
 #botaoLogin {
     background-color: #32D4E7;
     border: none;
 }
+
 /* testes que eu fiz no hover do botao */
 #botaoLogin:hover{
     background-color:  #FFFFFF;
     color: #32D4E7;
 }
+
 .divbotao{
     padding-right: 1em;
     padding-left: 0.7em;
+    text-align: center;
+}
+
+img {
+    width: 120px;
+    padding-left: 1em;
 }
 
 
