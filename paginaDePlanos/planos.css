@@ -67,6 +67,22 @@ a:hover {
 
 }
 
+/* botao editado teste */
+#botaoLogin {
+    background-color: #32D4E7;
+    border: none;
+}
+/* testes que eu fiz no hover do botao */
+#botaoLogin:hover{
+    background-color:  #FFFFFF;
+    color: #32D4E7;
+}
+.divbotao{
+    padding-right: 1em;
+    padding-left: 0.7em;
+}
+
+
 /* FOOTER */
 footer {
     width: 100%;
@@ -98,25 +114,15 @@ footer {
     height: 150px;
 }
 
-/* botao editado teste */
-#botaoLogin {
-    background-color: #32D4E7;
-    border: none;
+li {
+    list-style-type: none;
 }
 
-/* testes que eu fiz no hover do botao */
-#botaoLogin:hover{
-    background-color:  #FFFFFF;
-    color: #32D4E7;
-}
-.divbotao{
-    padding-right: 1em;
-    padding-left: 0.7em;
-}
+
 
 
 @media screen and (max-width: 768px) {
-
+    
 footer {
     height: 100vh;
     flex-direction: column;
