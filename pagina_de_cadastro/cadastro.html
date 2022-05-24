@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="../assets/css/main.css" />
     <link rel="stylesheet" href="./cadastro.css" />
 
-    <link rel="stylesheet" href="bootstrap-4.6.1-dist/css/bootstrap.min.css">
     <script src="../assets/js/jquery-3.6.0.min.js"></script>
     <script src="../assets/js/jquery.validate.min.js"></script>
     <script src="../assets/js/jquery.validate.pt-br.js"></script>
@@ -52,11 +51,24 @@
             <div id="div_submit" class="div_submit">
                 <button id="btnSubmit" class="btn btn-outline-info btn-block" type="submit">Quero me inscrever!</button>
             </div>
+            <div class="popup-wrapper" id="pop-wrapper">
+                <div class="popup">
+                    <div class="popup-close" id="pop-close">X</div>
+
+                    <div class="popup-content">
+                        <h4>Obrigado por se cadastrar na lista de espera!</h4>
+                        <p>Em breve você receberá uma resposta.</p>
+                        <button id="btn-close" class="popup-btn" onclick="redirecione('www.google.com');">Home</button>
+                    </div>
+                </div>
+            </div>
 
         </form>
     </section>
 
     <script src="./cadastro.js"></script>
+    <script src="../assets/js/main.js"></script>
+
 </body>
 
 </html>

@@ -1,15 +1,18 @@
+function limpa_formulário_cep(showMessage = false) {
+    $("#rua").val("");
+    $("#bairro").val("");
+    $("#cidade").val("");
+    $("#uf").val("");
+
+    if (showMessage)
+        alert("CEP não encontrado.")
+}
+
+function redirecione(path) {
+    window.location.replace(path);
+}
+
 $(document).ready(function () {
-
-    function limpa_formulário_cep(showMessage = false) {
-        $("#rua").val("");
-        $("#bairro").val("");
-        $("#cidade").val("");
-        $("#uf").val("");
-
-        if (showMessage)
-            alert("CEP não encontrado.")
-    }
-
     $("#cep").blur(function () {
         limpa_formulário_cep()
 
@@ -32,17 +35,17 @@ $(document).ready(function () {
             }
         }
     });
+
+    $("#btnSubmit").click(function (e) {
+        e.preventDefault();
+
+        if ($("#registrationForm").valid()) {
+            $("#registrationForm field").val("");
+            $("#pop-wrapper").show();
+        }
+    });
+
+    $("#pop-wrapper").click(function (e) {
+        $("#pop-wrapper").hide();
+    })
 });
-
-$("#btnSubmit").click(function (e) {
-    e.preventDefault();
-
-    if ($("#registrationForm").valid()) {
-        cadastroConcluido()
-        $("#registrationForm field").val("");
-    }
-});
-
-function cadastroConcluido() {
-    alert('Cadastro concluído com sucesso')
-}
