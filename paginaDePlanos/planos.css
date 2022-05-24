@@ -13,6 +13,7 @@ body {
 #btn {
     background-image: linear-gradient(to right, #268ba7, #32d5e7);
     color: white;
+    border: none;
 }
 
 #h1{
@@ -42,8 +43,29 @@ body {
 
 #navbarNavAltMarkup {
     justify-content: flex-end;
+    font-family: 'Inter', sans-serif;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(50, 212, 231)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+} /* alteração do botao hamburguer*/
+
+a {
+    color: #32D4E7;
 }
 
+a:hover {
+    color: #FFFFFF;
+}
+
+/* alterei as cores dos links e hover */
+.nav-link{
+    color: #32D4E7;
+}
+
+.nav-link:hover{
+    color: #FFFFFF;
+
+}
 
 /* FOOTER */
 footer {
@@ -74,4 +96,31 @@ footer {
 
 .icone {
     height: 150px;
+}
+
+/* botao editado teste */
+#botaoLogin {
+    background-color: #32D4E7;
+    border: none;
+}
+
+/* testes que eu fiz no hover do botao */
+#botaoLogin:hover{
+    background-color:  #FFFFFF;
+    color: #32D4E7;
+}
+.divbotao{
+    padding-right: 1em;
+    padding-left: 0.7em;
+}
+
+
+@media screen and (max-width: 768px) {
+
+footer {
+    height: 100vh;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
 }
