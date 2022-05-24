@@ -37,7 +37,7 @@ body {
 
 /* HEADER */
 #navbar {
-    width: 100vw;
+    width: 100%;
     background-color: #000102;
 }
 
@@ -69,7 +69,7 @@ a:hover {
 
 /* FOOTER */
 footer {
-    /* width: 100vw; */
+    width: 100%;
     height: 25vh;
     display: flex;
     flex-direction: row;
