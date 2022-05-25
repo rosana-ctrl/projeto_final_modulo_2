@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/cadastro.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"
+        defer>
+    </script>
+
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/jquery.validate.min.js"></script>
+    <script src="../js/jquery.validate.pt-br.js"></script>
+
+
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="index.html">
+                <img src="../images/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <!-- list-unstyled mt-2 mb-2 de teste-->
+                    <a class="nav-link active" href="#" id="Home" onclick="home()">Home <span
+                            class="sr-only"></span></a>
+                    <a class="nav-link" href="#" id="contato">Contato</a>
+                    <a class="nav-link" href="#" id="planosHeader">Planos</a>
+                    <!-- <a class="nav-link" href="#">Log In | Sign Up</a> -->
+                </div>
+                <!-- botao editado teste -->
+                <div class="divbotao">
+                    <button class="btn btn btn-primary" type="submit" id="botaoLogin">Entrar | Cadastre-se</button>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <section id="registration" class="section">
+        <h1> Só mais algumas informações, falta pouco para você entrar na lista de espera! </h1><br>
+
+        <form id="registrationForm">
+            <div class="float-container">
+                <div class="float-child right-div">
+                    <input class="field" type="text" id="nome" name="nome" placeholder="Seu nome completo" required />
+                    <input class="field" type="email" id="email" name="email" placeholder="Seu melhor email" required />
+                    <input class="field" type="password" id="senha" name="senha" placeholder="Digite sua senha"
+                        required />
+                    <input class="field" type="password" id="confirmaSenha" id="confirmaSenha"
+                        placeholder="Confirme sua senha" data-rule-equalTo="#senha" required />
+                    <input class="field" type="text" id="rg" name="rg" placeholder="Digite seu RG" required />
+                </div>
+                <div class="vertical"></div>
+                <div id="enderecoCompleto" class="float-child">
+                    <input class="field" type="text" id="cep" name="cep" placeholder="CEP somente números" required />
+                    <input class="field" type="text" id="rua" name="rua" placeholder="rua" required />
+                    <input class="field" type="text" id="numero" name="numero" placeholder="número" required />
+                    <input class="field" type="text" id="complemento" name="complemento" placeholder="complemento" />
+                    <input class="field" type="text" id="bairro" name="bairro" placeholder="bairro" required />
+                    <input class="field" type="text" id="cidade" name="cidade" placeholder="cidade" required />
+                    <input class="field" type="text" id="uf" name="uf" placeholder="estado" required />
+                </div>
+            </div>
+            <div id="div_submit" class="div_submit">
+                <button id="btnSubmit" class="btn btn-outline-info btn-block" type="submit">Quero me inscrever!</button>
+            </div>
+            <div class="popup-wrapper" id="pop-wrapper">
+                <div class="popup">
+                    <div class="popup-close" id="pop-close">X</div>
+
+                    <div class="popup-content">
+                        <h4>Obrigado por se cadastrar na lista de espera!</h4>
+                        <p>Em breve você receberá uma resposta.</p>
+                        <button id="btn-close" class="popup-btn" onclick="redirecione('./pagina');">Home</button>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+    </section>
+    <footer>
+        <div class="f1">
+            <img class="icone" src="../images/icon.png">
+            <h6>© 2022 Code C <br> Todos os direitos reservados</h6>
+        </div>
+        <div class="f2">
+            <ul>
+                <li>
+                    <p>SERVIÇO</p>
+                </li>
+                <li><a href="#">Sobre nós</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Parcerias</a></li>
+            </ul>
+            <ul>
+                <li>
+                    <p>CONTEÚDOS</p>
+                </li>
+                <li><a href="#">Documentação</a></li>
+                <li><a href="#">Informações</a></li>
+                <li><a href="#">Blog</a></li>
+
+            </ul>
+            <ul>
+                <li>
+                    <p>SAC</p>
+                </li>
+                <li><a href="#">Suporte</a></li>
+                <li><a href="#">Telefones</a></li>
+                <li><a href="#">Chat</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="../js/cadastro.js"></script>
+    <script src="../js/main.js"></script>
+
+</body>
+
+</html>

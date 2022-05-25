@@ -12,14 +12,9 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-li {
-    list-style-type: none;
-}
-
-
 /*Header*/
 #navbar {
-    width: 100vw;
+    width: 100%;
     background-color: #000102;
 }
 
@@ -44,11 +39,36 @@ a:hover {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(50, 212, 231)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
+#botaoLogin {
+    background-color: #32D4E7;
+    border: none;
+}
+
+#botaoLogin:hover {
+    background-color: #FFFFFF;
+    color: #32D4E7;
+}
+
+.navbar-nav .nav-link {
+    text-align: center;
+}
+
+.divbotao {
+    padding-right: 1em;
+    padding-left: 0.7em;
+    text-align: center;
+}
+
+.logoHeader {
+    width: 120px;
+    padding-left: 1em;
+}
+
 
 
 /*primeira sessão com logo e pitch*/
 .intro {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-image: url(../images/Background.png);
     background-size: cover;
@@ -56,7 +76,7 @@ a:hover {
 }
 
 .container {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: row;
@@ -102,7 +122,7 @@ h2 {
 /*sessão dos cards*/
 .cards {
     justify-content: center;
-    width: 100vw;
+    width: 100%;
     background-image: url(../images/Background1.svg);
     background-size: cover;
 }
@@ -134,13 +154,13 @@ h2 {
 
 /*sessão das linguagens*/
 .middle {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-color: #000102;
 }
 
 .languages {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -172,7 +192,7 @@ h3 {
 
 /*sessão final com botao*/
 .end {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-color: #000102;
     justify-content: center;
@@ -180,7 +200,7 @@ h3 {
 }
 
 .containerEnd {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -192,7 +212,7 @@ h3 {
 
 /*footer*/
 footer {
-    width: 100vw;
+    width: 100%;
     height: 25vh;
     display: flex;
     flex-direction: row;
@@ -220,6 +240,10 @@ footer {
 
 .icone {
     height: 150px;
+}
+
+li {
+    list-style-type: none;
 }
 
 /*MEDIA QUERY*/
@@ -268,7 +292,7 @@ footer {
     }
 
     /*MEDIA DO FOOTER*/
-    
+
     footer {
         height: 100vh;
         flex-direction: column;

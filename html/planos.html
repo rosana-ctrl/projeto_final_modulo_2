@@ -5,6 +5,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="imagem/png" href="./img/icon logo.png">
+
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -18,32 +20,38 @@
     <header>
         <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand" href="./index.html">
-                <h1>CODE C</h1>
+                <img src="../assets/images/logo.png" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav"> <!-- list-unstyled mt-2 mb-2 de teste-->
-                    <a class="nav-link active" href="#" id="Home">Home <span class="sr-only"></span></a>
-                    <a class="nav-link" href="#" id="contato">Contato</a>
-                    <a class="nav-link" href="#" id="planosHeader">Planos</a>
-                    <!-- <a class="nav-link" href="#">Log In | Sign Up</a> -->
+                <div class="navbar-nav">
+                    <!-- list-unstyled mt-2 mb-2 de teste-->
+                    <a class="nav-link active" href="#" id="Home" onclick="home()">Home <span
+                            class="sr-only"></span></a>
+                    <a class="nav-link" href="#" id="contato" onclick="contato()">Contato</a>
+                    <a class="nav-link" href="#" id="planosHeader" onclick="planos()">Planos</a>
                 </div>
-                <!-- botao editado teste -->
                 <div class="divbotao">
-                    <button class="btn btn btn-primary" type="submit" id="botaoLogin">Entrar | Cadastre-se</button>
+                    <button class="btn btn btn-primary" type="submit" id="botaoLogin" onclick="entrar()">Entrar |
+                        Cadastre-se</button>
                 </div>
-                
+
             </div>
         </nav>
     </header>
+
+    <div class="testeMedia">
+    </div>
     <main>
 
         <div class="container text-center py-5">
             <h1 class="display-4 fw-normal" id="h1">Conheça Nossos Planos:</h1>
-            <p class="fs-5 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident sapiente alias labore voluptates debitis. Sed omnis mollitia reiciendis veritatis nemo nobis? Eveniet magni iusto asperiores ratione quas, repudiandae quo repellendus?</p>
+            <p class="fs-5 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident sapiente alias
+                labore voluptates debitis. Sed omnis mollitia reiciendis veritatis nemo nobis? Eveniet magni iusto
+                asperiores ratione quas, repudiandae quo repellendus?</p>
         </div>
 
         <div class="container text-center">
@@ -61,11 +69,9 @@
                                     um colaborador, podendo ter acesso ao serviços da CodeC
                                     e ainda ajudar a manter um codigo limpo para todos.
                                 </li> <!-- teste de modelo descrição do plano-->
-                                <!-- <li>Uma opção de codigo</li>
-                                <li>Ajudar pessoas</li>
-                                <li>Facilitar</li> -->
                             </ul>
-                            <button class="w-100 btn btn-lg" id="btn" type="submit">Comece Agora</button>
+                            <button class="w-100 btn btn-lg" id="btn" type="submit" onclick="cadastro()">Comece
+                                Agora</button>
                         </div>
                     </div>
                 </div>
@@ -79,15 +85,14 @@
                             <ul class="list-unstyled mt-3 mb-4">
                                 <li>
                                     Escolha uma das linguagens disponiveis
-                                    pelo CodeC e comece a criar seus codigos com 
+                                    pelo CodeC e comece a criar seus codigos com
                                     todo acompanhamento de nossos colaboradores,
                                     tudo para manter o seu codigo mais limpo e facil de ler.
-                                </li> <!--teste de modelo descrição do plano-->
-                                <!-- <li>4 GB storage</li>
-                                <li>Email support</li>
-                                <li>Help center acess</li> -->
+                                </li>
+                                <!--teste de modelo descrição do plano-->
                             </ul>
-                            <button class="w-100 btn btn-lg btn-primary" id="btn" type="submit">Comece Agora</button>
+                            <button class="w-100 btn btn-lg btn-primary" id="btn" type="submit"
+                                onclick="cadastro()">Comece Agora</button>
                         </div>
                     </div>
                 </div>
@@ -102,14 +107,15 @@
                                 <li>
                                     Acesso ilimitado a qualquer linguagem de codigo
                                     disponivel pelo CodeC para revisão e orientação.
-
-
-                                </li> <!--teste de modelo descrição do plano-->
-                                <!-- <li>6 GB storage</li>
-                                <li>Email support</li>
-                                <li>Help center acess</li> -->
+                                    Tendo direito de se tornar um colaborador na revisão
+                                    de codigos adicionados na plataforma. Além de poder
+                                    tirar duvidas e ter feedbacks a qualquer momento.
+                                </li>
+                                <!--teste de modelo descrição do plano-->
                             </ul>
-                            <button class="btn btn-primary btn-lg btn-block" id="btn" type="submit">Comece Agora</button>
+                            <button class="btn btn-primary btn-lg btn-block" id="btn" type="submit"
+                                onclick="cadastro()">Comece
+                                Agora</button>
                         </div>
                     </div>
                 </div>
@@ -123,106 +129,101 @@
 
             <!-- Comparação de Planos -->
             <h2 class="display-6 text-center mb-4" id="compare">Compare os planos</h2>
-            
+
             <div class="table-responsive">
                 <table class="table text-center">
                     <thead>
                         <tr>
-                        <th style="width: 34%;"></th>
-                        <th style="width: 22%;" id="free">Free</th>
-                        <th style="width: 22%;" id="pro">Pro</th>
-                        <th style="width: 22%;" id="enter">Enterprise</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row" class="text-start" id="um">Public</th>
-                        <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16" id="check">
-                            <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
-                          </svg></td>
-                        <td><svg class="bi" width="24" height="24">
-                            <use xlink:href="#check" /></svg></td>
+                            <th style="width: 34%;"></th>
+                            <th style="width: 22%;" id="colab">Colaborador</th>
+                            <th style="width: 22%;" id="simp">Simples</th>
+                            <th style="width: 22%;" id="comp">Completo</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody">
+                        <tr>
+                            <th scope="row" class="text-start" id="um">Ser Colaborador</th>
+                            <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-check" viewBox="0 0 16 16" id="check">
+                                    <path
+                                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
+                                </svg></td>
                             <td><svg class="bi" width="24" height="24">
-                                <use xlink:href="#check" /></svg></td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="text-start" id="dois">Private</th>
-                                <td></td>
-                                <td><svg class="bi" width="24" height="24">
                                     <use xlink:href="#check" /></svg></td>
-                        <td><svg class="bi" width="24" height="24">
-                            <use xlink:href="#check" /></svg></td>
+                            <td><svg class="bi" width="24" height="24">
+                                    <use xlink:href="#check" /></svg></td>
                         </tr>
                     </tbody>
 
-                    <tbody>
+                    <tbody id="tbodyUm">
                         <tr>
-                            <th scope="row" class="text-start" id="tres">Permissions</th>
+                            <th scope="row" class="text-start" id="tres">Acesso à Revisão</th>
+                            <td>
+                            </td>
                             <td><svg class="bi" width="24" height="24">
-                                <use xlink:href="#check" /></svg></td>
-                                <td><svg class="bi" width="24" height="24">
                                     <use xlink:href="#check" /></svg></td>
-                                    <td><svg class="bi" width="24" height="24">
-                                        <use xlink:href="#check" /></svg></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row" class="text-start" id="quatro">Sharing</th>
-                                        <td></td>
-                                        <td><svg class="bi" width="24" height="24">
-                                            <use xlink:href="#check" /></svg></td>
-                                            <td><svg class="bi" width="24" height="24">
-                                                <use xlink:href="#check" /></svg></td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row" class="text-start" id="cinco">Unlimited members</th>
-                                                <td></td>
-                                                <td><svg class="bi" width="24" height="24">
-                                                    <use xlink:href="#check" /></svg></td>
-                                                    <td><svg class="bi" width="24" height="24">
-                                                        <use xlink:href="#check" /></svg></td>
-                    </tr>
-                    <tr>
-                        <th scope="row" class="text-start" id="seis">Extra security</th>
-                        <td></td>
-                        <td></td>
-                        <td><svg class="bi" width="24" height="24">
-                            <use xlink:href="#check" /></svg></td>
+                            <td><svg class="bi" width="24" height="24">
+                                    <use xlink:href="#check" /></svg></td>
                         </tr>
+                        <tr>
+                            <th scope="row" class="text-start" id="quatro">Codigos Limpo</th>
+                            <td></td>
+                            <td><svg class="bi" width="24" height="24">
+                                    <use xlink:href="#check" /></svg></td>
+                            <td><svg class="bi" width="24" height="24">
+                                    <use xlink:href="#check" /></svg></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="text-start" id="cinco">Acesso ilimitado às linguagens disponiveis
+                            </th>
+                            <td></td>
+                            <td></td>
+                            <td><svg class="bi" width="24" height="24">
+                                    <use xlink:href="#check" /></svg></td>
+                        </tr>
+
                     </tbody>
                 </table>
             </div>
         </section>
-            
-        
-            <footer>
-                <div class="f1">
-                    <img class="icone" src="./img/icon logo.png">
-                    <h6>© 2022 Code C <br> Todos os direitos reservados</h6>
-                </div>
-                <div class="f2">
+
+
+        <footer>
+            <div class="f1">
+                <img class="icone" src="../assets/images/icon.png">
+                <h6>© 2022 Code C <br> Todos os direitos reservados</h6>
+            </div>
+            <div class="f2">
                 <ul>
-                    <li><p>SERVIÇO</p></li>
+                    <li>
+                        <p>SERVIÇO</p>
+                    </li>
                     <li><a href="#">Sobre nós</a></li>
                     <li><a href="#">Contato</a></li>
                     <li><a href="#">FAQ</a></li>
                     <li><a href="#">Parcerias</a></li>
                 </ul>
                 <ul>
-                    <li><p>CONTEÚDOS</p></li>
+                    <li>
+                        <p>CONTEÚDOS</p>
+                    </li>
                     <li><a href="#">Documentação</a></li>
                     <li><a href="#">Informações</a></li>
                     <li><a href="#">Blog</a></li>
-                    
+
                 </ul>
                 <ul>
-                    <li><p>SAC</p></li>
+                    <li>
+                        <p>SAC</p>
+                    </li>
                     <li><a href="#">Suporte</a></li>
                     <li><a href="#">Telefones</a></li>
                     <li><a href="#">Chat</a></li>
                 </ul>
-                </div>
-            </footer>
-        
+            </div>
+        </footer>
+
+
     </main>
 
     <!-- Optional JavaScript; choose one of the two! -->
