@@ -16,22 +16,27 @@
 </head>
 
 <body>
-    <header id="navbar">
+    <header>
         <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand" href="./index.html">
-                <h1>CODE C</h1>
+                <img src="../assets/images/logo.png" alt="">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-link" href="#">Contato</a>
-                    <a class="nav-link" href="#">Planos</a>
-                    <a class="nav-link" href="#">Entrar | Cadastre-se</a>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav"> <!-- list-unstyled mt-2 mb-2 de teste-->
+                    <a class="nav-link active" href="#" id="Home" onclick="home()">Home <span class="sr-only"></span></a>
+                    <a class="nav-link" href="#" id="contato" onclick="contato()">Contato</a>
+                    <a class="nav-link" href="#" id="planosHeader" onclick="planos()">Planos</a>
+                    <!-- <a class="nav-link" href="#">Log In | Sign Up</a> -->
                 </div>
+                <!-- botao editado teste -->
+                <div class="divbotao">
+                    <button class="btn btn btn-primary" type="submit" id="botaoLogin" onclick="entrar()">Entrar | Cadastre-se</button>
+                </div>
+                
             </div>
         </nav>
     </header>
@@ -118,7 +123,7 @@
         <section class="contato">
 
 
-            <form class="forms" action="">
+            <form class="forms" action="" id="forms">
                 <h3>Entre em contato conosco</h3>
 
                 <div class="form-contato">
@@ -127,7 +132,7 @@
                 </div>
                 <div class="form-contato">
                     <label for="">E-mail:</label>
-                    <input type="email" name="email" id="" placeholder="Digite seu email">
+                    <input type="email" name="email" id="email" placeholder="Digite seu email">
                 </div>
                 <div class="form-contato">
                     <label for="">Assunto:</label>
@@ -145,42 +150,40 @@
         </section>
     </main>
 
-    <div>
-        <footer>
-            <div class="f1">
-                <img class="icone" src="./images/icon.png">
-                <h6>© 2022 Code C <br> Todos os direitos reservados</h6>
-            </div>
-            <div class="f2">
-                <ul>
-                    <li>
-                        <p>SERVIÇO</p>
-                    </li>
-                    <li><a href="#">Sobre nós</a></li>
-                    <li><a href="#">Contato</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Parcerias</a></li>
-                </ul>
-                <ul>
-                    <li>
-                        <p>CONTEÚDOS</p>
-                    </li>
-                    <li><a href="#">Documentação</a></li>
-                    <li><a href="#">Informações</a></li>
-                    <li><a href="#">Blog</a></li>
+    <footer>
+        <div class="f1">
+            <img class="icone" src="../assets/images/logo.png">
+            <h6>© 2022 Code C <br> Todos os direitos reservados</h6>
+        </div>
+        <div class="f2">
+            <ul>
+                <li>
+                    <p>SERVIÇO</p>
+                </li>
+                <li><a href="#">Sobre nós</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Parcerias</a></li>
+            </ul>
+            <ul>
+                <li>
+                    <p>CONTEÚDOS</p>
+                </li>
+                <li><a href="#">Documentação</a></li>
+                <li><a href="#">Informações</a></li>
+                <li><a href="#">Blog</a></li>
 
-                </ul>
-                <ul>
-                    <li>
-                        <p>SAC</p>
-                    </li>
-                    <li><a href="#">Suporte</a></li>
-                    <li><a href="#">Telefones</a></li>
-                    <li><a href="#">Chat</a></li>
-                </ul>
-            </div>
-        </footer>
-    </div>
+            </ul>
+            <ul>
+                <li>
+                    <p>SAC</p>
+                </li>
+                <li><a href="#">Suporte</a></li>
+                <li><a href="#">Telefones</a></li>
+                <li><a href="#">Chat</a></li>
+            </ul>
+        </div>
+    </footer>
 
     <div class="popup-wrapper" id="pop-wrapper">
         <div class="popup">
