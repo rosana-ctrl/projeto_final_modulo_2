@@ -8,34 +8,34 @@ $("#Home").click((event) => {
 $("#contato").click((event) => {
     event.preventDefault();
 
-    location.replace("./contatos.html")
+    location.replace("../html/contatos.html")
 
 })
 
 $("#planosHeader").click((event) => {
     event.preventDefault();
 
-    location.replace("./planos.html")
+    location.replace("../html/planos.html")
 
 })
 
 $("#botaoLogin").click((event) => {
     event.preventDefault();
 
-    location.replace("./login.html")
+    location.replace("../html/login.html")
 
 })
 
 $("#btn-close").click((event) => {
     event.preventDefault();
 
-    location.replace("./index.html")
+    location.replace("../index.html")
 
 })
 
 $("#btn").click((event) => {
     event.preventDefault();
 
-    location.replace("./cadastro.html")
+    location.replace("../html/cadastro.html")
 
 })

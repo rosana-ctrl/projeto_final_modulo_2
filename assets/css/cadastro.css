@@ -7,6 +7,10 @@ body {
     margin: auto;
 }
 
+h1 {
+    margin: 10px;
+}
+
 .section {
     color: white;
     margin-left: 100px;
@@ -148,20 +152,5 @@ label.error {
 
     .float-container {
         margin: auto;
-    }
-
-    footer {
-        height: 100vh;
-        width: 100%;
-        flex-direction: column;
-        flex-wrap: nowrap;
-    }
-
-    .f2 {
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
     }
 }
