@@ -13,9 +13,14 @@ body {
 }
 
 #btn {
-    background-image: linear-gradient(to right, #268ba7, #32d5e7);
-    color: white;
-    border: none;
+    color: #32D4E7;
+    background-color: #000102;
+    border-color: #32D4E7;
+}
+
+#btn:hover {
+    color: #ffffff;
+    background-color: #32D4E7;
 }
 
 #h1 {
@@ -90,18 +95,16 @@ a:hover {
 
 /* botao editado teste */
 #botaoLogin {
-    background-color: #32D4E7;
-    */
-    /* border: none;
-    /* border-color: #32D4E7;
-    background-color: #000102; */
+    color: #32D4E7;
+    background-color: #000102;
+    border-color: #32D4E7;
 
 }
 
 /* testes que eu fiz no hover do botao */
 #botaoLogin:hover {
-    background-color: #FFFFFF;
-    color: #32D4E7;
+    color: #ffffff;
+    background-color: #32D4E7;
 }
 
 .divbotao {
@@ -151,10 +154,6 @@ footer {
 li {
     list-style-type: none;
 }
-
-#teste {}
-
-
 
 @media screen and (max-width: 768px) {
 
