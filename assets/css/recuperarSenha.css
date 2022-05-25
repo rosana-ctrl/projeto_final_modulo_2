@@ -139,6 +139,10 @@ img {
     padding-left: 1em;
 }
 
+main{
+    height: 61vh;
+}
+
 /* FOOTER */
 footer {
     width: 100%;
@@ -149,9 +153,6 @@ footer {
     align-items: center;
     color: #FFFFFF;
     background-color: #0E3347;
-    position:fixed;
-    bottom: 0;
-    left: 0;
 
 }
 
@@ -160,13 +161,12 @@ footer {
     flex-direction: row;
     align-items: center;
 }
-
 .f2 {
     width: 50vw;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: baseline;
+    align-items:baseline;
     text-align: justify;
 }
 
@@ -182,26 +182,20 @@ li {
 
 
 @media screen and (max-width: 768px) {
-
-    footer {
-        height: 40px;
-        flex-direction: column;
-        flex-wrap: nowrap;
+    #recuperarSenha{
+        width: 300px;
     }
-
-    .f1{
-        width: 40px;
-        font-size: 12px;
-
-    }
-
-    .f2 {
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        
-    }
+footer {
+    height: 100vh;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.f2 {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
 }
