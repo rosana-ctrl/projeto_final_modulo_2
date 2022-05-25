@@ -309,4 +309,70 @@ a{
 }
 
 
+@media(max-width:1025px) {
+    body {
+        width: 100%;
+    }
 
+    .container {
+    width: 100%;
+    display: flex;  
+    }
+
+    .conteudo {
+        width: 44%;
+       font-size: 11px;
+    }
+    
+}
+
+@media(max-width:769px) {
+    body {
+        width: 100%;
+    }
+
+    .conteudo {
+        width: 90%;
+    }
+}
+
+@media(max-width:426px) {
+    body {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .contato {
+        width: 110%;
+        
+    }
+}
+
+@media(max-width:376px) {
+    body {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    img {
+        width: 125px;
+        height: 140px;
+    }
+    .container {
+        width: 90%;
+    }
+
+    .conteudo {
+        width: 95%;
+}
+
+ .contato {
+    width: 100%;
+
+}
+
+.forms {
+    width:90%;
+}
+
+}
