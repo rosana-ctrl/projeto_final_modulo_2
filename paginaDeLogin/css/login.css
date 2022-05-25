@@ -46,6 +46,28 @@ p {
     background-color: #32D4E7;
 }
 
+.container {
+    max-width:100%;
+    width: 100%;
+}
+
+@media (max-width: 575.98px) { 
+
+    h1{
+        font-size: 12px;
+    }
+
+    a{
+        font-size: 12px;
+    }
+
+    bottom{
+        font-size: 12px;
+    }
+
+
+
+}
 
 
 
