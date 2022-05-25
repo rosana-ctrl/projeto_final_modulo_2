@@ -2,6 +2,9 @@
 body {
     font-family: 'Inter', sans-serif;
     background-color: #000102;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 /*Campo de recuperar senha*/
@@ -9,7 +12,6 @@ body {
     width: 460px;
     background-color: #000102;
     color: #ffffff;
-    margin-top: px;
 }
 
 p {
@@ -18,7 +20,7 @@ p {
 }
 
 #logo {
-    width: 200px;
+    width: 150px;
 }
 
 /*Botões dos cards*/
@@ -77,24 +79,22 @@ p {
 
 }
 
-
-/*Header*/
-h1 {
-    color: #FFFFFF;
-    font-family: 'Forum', cursive;
+/* HEADER */
+#navbar {
+    width: 100%;
+    background-color: #000102;
 }
 
-h1:hover {
-    color: #32D4E7;
+#navbarNavAltMarkup {
+    justify-content: flex-end;
+    font-family: 'Inter', sans-serif;
 }
 
-h2 {
-    color: #FFFFFF;
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(50, 212, 231)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-li {
-    list-style-type: none;
-}
+/* alteração do botao hamburguer*/
 
 a {
     color: #32D4E7;
@@ -104,18 +104,45 @@ a:hover {
     color: #FFFFFF;
 }
 
-#navbar {
-    width: 100vw;
-    background-color: #000102;
+/*cores dos links e hover */
+.nav-link {
+    color: #32D4E7;
 }
 
-#navbarNavAltMarkup {
-    justify-content: flex-end;
+.nav-link:hover {
+    color: #FFFFFF;
+
 }
 
-/*footer*/
+.navbar-nav .nav-link {
+    text-align: center;
+}
+
+#botaoLogin {
+    background-color: #32D4E7;
+    color: #ffffff;
+    border: none;
+}
+
+#botaoLogin:hover {
+    background-color: #FFFFFF;
+    color: #32D4E7;
+}
+
+.divbotao {
+    padding-right: 1em;
+    padding-left: 0.7em;
+    text-align: center;
+}
+
+img {
+    width: 120px;
+    padding-left: 1em;
+}
+
+/* FOOTER */
 footer {
-    width: 100vw;
+    width: 100%;
     height: 25vh;
     display: flex;
     flex-direction: row;
@@ -123,6 +150,9 @@ footer {
     align-items: center;
     color: #FFFFFF;
     background-color: #0E3347;
+    position:fixed;
+    bottom: 0;
+    left: 0;
 
 }
 
@@ -131,15 +161,41 @@ footer {
     flex-direction: row;
     align-items: center;
 }
+
 .f2 {
     width: 50vw;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items:baseline;
+    align-items: baseline;
     text-align: justify;
 }
 
 .icone {
     height: 150px;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    footer {
+        height: 100vh;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .f2 {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
 }
