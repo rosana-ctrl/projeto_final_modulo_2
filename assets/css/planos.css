@@ -5,7 +5,9 @@ body {
     background-color: #000102;
 }
 
-#pacoteColaborador, #pacoteSimples, #pacoteCompleto {
+#pacoteColaborador,
+#pacoteSimples,
+#pacoteCompleto {
     color: #124E67;
     font-family: 'Inter', sans-serif;
 }
@@ -16,17 +18,21 @@ body {
     border: none;
 }
 
-#h1{
+#h1 {
     color: white;
     font-family: 'Forum', cursive;
 }
 
-#compare, #colab, #simp, #comp {
+#compare,
+#colab,
+#simp,
+#comp {
     color: white;
     font-family: 'Inter', sans-serif;
 }
 
-#tbody, #tbodyUm {
+#tbody,
+#tbodyUm {
     color: white;
 }
 
@@ -36,6 +42,10 @@ body {
 
 #check {
     color: white;
+}
+
+.card {
+    width: 100%;
 }
 
 
@@ -49,9 +59,12 @@ body {
     justify-content: flex-end;
     font-family: 'Inter', sans-serif;
 }
+
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(50, 212, 231)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-} /* alteração do botao hamburguer*/
+}
+
+/* alteração do botao hamburguer*/
 
 a {
     color: #32D4E7;
@@ -62,11 +75,11 @@ a:hover {
 }
 
 /* alterei as cores dos links e hover */
-.nav-link{
+.nav-link {
     color: #32D4E7;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: #FFFFFF;
 
 }
@@ -77,7 +90,8 @@ a:hover {
 
 /* botao editado teste */
 #botaoLogin {
-    background-color: #32D4E7; */
+    background-color: #32D4E7;
+    */
     /* border: none;
     /* border-color: #32D4E7;
     background-color: #000102; */
@@ -85,12 +99,12 @@ a:hover {
 }
 
 /* testes que eu fiz no hover do botao */
-#botaoLogin:hover{
-    background-color:  #FFFFFF;
+#botaoLogin:hover {
+    background-color: #FFFFFF;
     color: #32D4E7;
 }
 
-.divbotao{
+.divbotao {
     padding-right: 1em;
     padding-left: 0.7em;
     text-align: center;
@@ -120,12 +134,13 @@ footer {
     flex-direction: row;
     align-items: center;
 }
+
 .f2 {
     width: 50vw;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items:baseline;
+    align-items: baseline;
     text-align: justify;
 }
 
@@ -137,15 +152,16 @@ li {
     list-style-type: none;
 }
 
+#teste {}
 
 
 
 @media screen and (max-width: 768px) {
-    
-footer {
-    height: 100vh;
-    flex-direction: column;
-    flex-wrap: nowrap;
-}
+
+    footer {
+        height: 100vh;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
 
 }
