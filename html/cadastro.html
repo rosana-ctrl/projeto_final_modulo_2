@@ -9,16 +9,16 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/main.css" />
-    <link rel="stylesheet" href="../css/cadastro.css" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <link rel="stylesheet" href="../assets/css/cadastro.css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"
         defer>
     </script>
 
-    <script src="../js/jquery-3.6.0.min.js"></script>
-    <script src="../js/jquery.validate.min.js"></script>
-    <script src="../js/jquery.validate.pt-br.js"></script>
+    <script src="../assets/js/jquery-3.6.0.min.js"></script>
+    <script src="../assets/js/jquery.validate.min.js"></script>
+    <script src="../assets/js/jquery.validate.pt-br.js"></script>
 
 
     <title>Cadastro</title>
@@ -28,27 +28,29 @@
     <header>
         <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand" href="index.html">
-                <img src="../images/logo.png" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <!-- list-unstyled mt-2 mb-2 de teste-->
-                    <a class="nav-link active" href="#" id="Home" onclick="home()">Home <span
-                            class="sr-only"></span></a>
-                    <a class="nav-link" href="#" id="contato">Contato</a>
-                    <a class="nav-link" href="#" id="planosHeader">Planos</a>
-                    <!-- <a class="nav-link" href="#">Log In | Sign Up</a> -->
-                </div>
-                <!-- botao editado teste -->
-                <div class="divbotao">
-                    <button class="btn btn btn-primary" type="submit" id="botaoLogin">Entrar | Cadastre-se</button>
-                </div>
+                <a class="navbar-brand" href="./login.html">
 
-            </div>
+                    <img src="../assets/images/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <!-- list-unstyled mt-2 mb-2 de teste-->
+                        <a class="nav-link active" href="#" id="Home">Home <span class="sr-only"></span></a>
+                        <a class="nav-link" href="#" id="contato">Contato</a>
+                        <a class="nav-link" href="#" id="planosHeader">Planos</a>
+                        <!-- <a class="nav-link" href="#">Log In | Sign Up</a> -->
+                    </div>
+                    <!-- botao editado teste -->
+                    <div class="divbotao">
+                        <button class="btn btn btn-primary" type="submit" id="botaoLogin">Entrar | Cadastre-se</button>
+                    </div>
+
+                </div>
         </nav>
     </header>
     <section id="registration" class="section">
@@ -86,7 +88,7 @@
                     <div class="popup-content">
                         <h4>Obrigado por se cadastrar na lista de espera!</h4>
                         <p>Em breve você receberá uma resposta.</p>
-                        <button id="btn-close" class="popup-btn" onclick="redirecione('./pagina');">Home</button>
+                        <button id="btn-close" class="popup-btn">Home</button>
                     </div>
                 </div>
             </div>
@@ -95,7 +97,7 @@
     </section>
     <footer>
         <div class="f1">
-            <img class="icone" src="../images/icon.png">
+            <img class="icone" src="../assets/images/icon.png">
             <h6>© 2022 Code C <br> Todos os direitos reservados</h6>
         </div>
         <div class="f2">
@@ -127,8 +129,8 @@
             </ul>
         </div>
     </footer>
-    <script src="../js/cadastro.js"></script>
-    <script src="../js/main.js"></script>
+    <script src="../assets/js/cadastro.js"></script>
+    <script src="../assets/js/main.js"></script>
 
 </body>
 

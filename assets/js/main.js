@@ -1,39 +1,41 @@
-//funcoes header//
-function home() {
-    location.assign("");
-}
+$("#Home").click((event) => {
+    event.preventDefault();
 
-function contato() {
-    location.assign("");
-}
+    location.replace("../index.html")
 
-function planos() {
-    location.assign("");
-}
+})
 
-function entrar() {
-    location.assign("");
-}
+$("#contato").click((event) => {
+    event.preventDefault();
 
-//funcoao logo// 
-function home() {
-    location.assign("");
-}
+    location.replace("./contatos.html")
 
-//funcao cadastro Rosana//
-function cadastro() {
-    location.assign("");
-}
+})
 
-//funcao de login Lisandra//
-function cadastro() {
-    location.assign("../cadastro.html");
-}
+$("#planosHeader").click((event) => {
+    event.preventDefault();
 
-function recuperarSenha() {
-    location.assign("./recuperarSenha.html");
-}
+    location.replace("./planos.html")
 
-function home() {
-    location.assign("./recuperarSenha.html");
-}
+})
+
+$("#botaoLogin").click((event) => {
+    event.preventDefault();
+
+    location.replace("./login.html")
+
+})
+
+$("#btn-close").click((event) => {
+    event.preventDefault();
+
+    location.replace("./index.html")
+
+})
+
+$("#btn").click((event) => {
+    event.preventDefault();
+
+    location.replace("./cadastro.html")
+
+})
