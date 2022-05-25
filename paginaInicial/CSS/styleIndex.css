@@ -18,15 +18,6 @@ body {
     background-color: #000102;
 }
 
-h1 {
-    color: #FFFFFF;
-    font-family: 'Forum', cursive;
-}
-
-h1:hover {
-    color: #32D4E7;
-}
-
 a {
     color: #32D4E7;
 }
