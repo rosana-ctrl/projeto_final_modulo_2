@@ -107,3 +107,60 @@ body {
 label.error {
     margin-left: 24px;
 }
+
+@media (max-width: 768px) {
+    body {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: medium;
+    }
+
+    .vertical {
+        display: none;
+    }
+
+    .section {
+        margin-left: auto;
+        width: auto;
+    }
+
+    .float-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .field {
+        width: auto;
+        margin: 5px;
+    }
+
+    .div_submit {
+        width: auto;
+        margin-left: auto;
+    }
+
+    .right-div {
+        margin: 0
+    }
+
+    .float-container {
+        margin: auto;
+    }
+
+    footer {
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .f2 {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
