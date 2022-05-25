@@ -6,7 +6,7 @@ body {
 
 /*Div com logo e cards*/
 #cardsELogo {
-    margin-top: 120px;
+    margin-top: 20px;
 }
 
 /*Cards de cadastro e login*/
@@ -90,6 +90,7 @@ a:hover {
 
 #botaoLogin {
     background-color: #32D4E7;
+    color: #ffffff;
     border: none;
 }
 
