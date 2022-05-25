@@ -8,22 +8,101 @@ body {
 
 }
 
-.field {
-    width: 80%;
+/* * HEADER */
+#navbar {
+    width: 100%;
+    background-color: #000102;
+}
+
+#navbarNavAltMarkup {
+    justify-content: flex-end;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(50, 212, 231)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* alteração do botao hamburguer*/
+
+a {
     color: #32D4E7;
-    padding: 5px;
-    margin-left: 24px;
-    margin-top: 10px;
-    border-radius: 5px;
-    border-color: #0E3347;
-    width: max-content;
-    background-color: black;
-    border: solid 2px;
+}
+
+a:hover {
+    color: #FFFFFF;
+}
+
+/* alterei as cores dos links e hover */
+.nav-link {
+    color: #32D4E7;
+}
+
+.nav-link:hover {
+    color: #FFFFFF;
+
+}
+
+.navbar-nav .nav-link {
+    text-align: center;
 }
 
 textarea::placeholder {
     color: #124E67;
     text-align: center;
+}
+
+#botaoLogin:hover {
+    background-color: #FFFFFF;
+    color: #32D4E7;
+}
+
+.divbotao {
+    padding-right: 1em;
+    padding-left: 0.7em;
+    text-align: center;
+}
+
+img {
+    width: 120px;
+    padding-left: 1em;
+}
+
+
+/* FOOTER */
+footer {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #0E3347;
+
+}
+
+.f1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.f2 {
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    text-align: justify;
+}
+
+.icone {
+    height: 150px;
+}
+
+li {
+    list-style-type: none;
 }
 
 .btn {
