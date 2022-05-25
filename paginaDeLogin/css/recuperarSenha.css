@@ -2,8 +2,7 @@
 body {
     font-family: 'Inter', sans-serif;
     background-color: #000102;
-    margin: 0;
-    padding: 0;
+    margin: auto;
     height: 100%;
 }
 
@@ -185,9 +184,15 @@ li {
 @media screen and (max-width: 768px) {
 
     footer {
-        height: 100vh;
+        height: 40px;
         flex-direction: column;
         flex-wrap: nowrap;
+    }
+
+    .f1{
+        width: 40px;
+        font-size: 12px;
+
     }
 
     .f2 {
@@ -196,6 +201,7 @@ li {
         justify-content: center;
         align-items: center;
         text-align: center;
+        
     }
 
 }
