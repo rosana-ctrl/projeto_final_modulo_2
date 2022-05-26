@@ -68,7 +68,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 #### **Utilitários**
 
 -   Protótipo:  **[Canva](https://www.canva.com/)**  →  **[CodeC](https://www.figma.com/file/D41nbP0LDvkQfpi2z7JcjL/Hades-%7C-Barber-Lounge?node-id=1%3A2)**
--   API:  **[IBGE API](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1)**  →  **[API de UFs](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1#api-UFs-estadosGet)**,  **[API de Municípios](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1#api-Municipios-estadosUFMunicipiosGet)**
+-   API:  **[ViaCEP](https://viacep.com.br/)**
 -   Editor:  **[Visual Studio Code](https://code.visualstudio.com/)**
 -   Fontes:  **[Forum](https://fonts.google.com/specimen/Forum?query=forum)**, **[Inter](https://fonts.google.com/specimen/Inter?query=inter)**
 
@@ -83,7 +83,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <br>
 
 [![Linkedin Badge](https://img.shields.io/badge/-Brenda-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/brendatondin/)](https://www.linkedin.com/in/brendatondin/) 
-[![Gmail Badge](https://img.shields.io/badge/-bentotbrenda@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:salves726@gmail.com)](mailto:bentotbrenda@gmail.com)
+[![Gmail Badge](https://img.shields.io/badge/-bentotbrenda@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:bentotbrenda@gmail.com)](mailto:bentotbrenda@gmail.com)
 
 </table>
 
@@ -94,7 +94,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <br>
 
 [![Linkedin Badge](https://img.shields.io/badge/-Igor-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/igor-reis-b6b84120a/)](https://www.linkedin.com/in/igor-reis-b6b84120a/) 
-[![Gmail Badge](https://img.shields.io/badge/-bentotbrenda@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:salves726@gmail.com)](mailto:bentotbrenda@gmail.com)
+[![Gmail Badge](https://img.shields.io/badge/-igordiego237@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:igordiego237@gmail.com)](mailto:igordiego237@gmail.com)
 
 </td>
 <td>
@@ -102,10 +102,42 @@ As seguintes ferramentas foram usadas na construção do projeto:
 </tr>
 </table>
 
+<table>
+<tr>
+<td>
 
+<br>
+
+[![Linkedin Badge](https://img.shields.io/badge/-Lisandra-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/lisandradecassia/)](https://www.linkedin.com/in/lisandradecassia/) 
+[![Gmail Badge](https://img.shields.io/badge/-lisandradecassia@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:lisandradecassia@gmail.com)](mailto:lisandradecassia@gmail.com)
+
+</table>
+
+<table>
+<tr>
+<td>
+
+<br>
+
+[![Linkedin Badge](https://img.shields.io/badge/-Luis-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://https://www.linkedin.com/in/luiseduardogdeoliveira/)](https://www.linkedin.com/in/luiseduardogdeoliveira/) 
+[![Gmail Badge](https://img.shields.io/badge/-luis_eduardogdeo@hotmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:luis_eduardogdeo@hotmail.com)](mailto:luis_eduardogdeo@hotmail.com)
+
+</table>
+
+<table>
+<tr>
+<td>
+
+<br>
+
+[![Linkedin Badge](https://img.shields.io/badge/-Rosana-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/rosana-ribeiro-39364a35/)](https://www.linkedin.com/in/rosana-ribeiro-39364a35/) 
+[![Gmail Badge](https://img.shields.io/badge/-rosana.fribeiro.90@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:rosana.fribeiro.90@gmail.com)](mailto:rosana.fribeiro.90@gmail.com)
+
+</table>
 ---
 
 ## 📝 Licença
 
+Projeto Feito por Brenda, Igo, Lisandra, Luis e Rosana para Resilia Educação.
 
 ---
