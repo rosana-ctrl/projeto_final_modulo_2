@@ -4,8 +4,6 @@ body {
     background-size: cover;
     width: 100%;
     height: 100%;
-    /* margin-top: 20%; */
-
 }
 
 /* * HEADER */
@@ -91,6 +89,8 @@ footer {
     color: #FFFFFF;
     background-color: #0E3347;
     font-family: 'Inter', sans-serif;
+    position: fixed;
+    bottom: 0;
 }
 
 .f1 {
