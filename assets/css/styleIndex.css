@@ -39,24 +39,20 @@ a:hover {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(50, 212, 231)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-#botaoLogin {
-    background-color: #32D4E7;
-    border: none;
-}
-
-#botaoLogin:hover {
-    background-color: #FFFFFF;
-    color: #32D4E7;
-}
-
 .navbar-nav .nav-link {
     text-align: center;
 }
 
-.divbotao {
-    padding-right: 1em;
-    padding-left: 0.7em;
-    text-align: center;
+#botaoLogin {
+    color: #32D4E7;
+    background-color: #000102;
+    border-color: #32D4E7;
+
+}
+
+#botaoLogin:hover {
+    color: #ffffff;
+    background-color: #32D4E7;
 }
 
 .logoHeader {
@@ -140,7 +136,7 @@ h2 {
 }
 
 .card-img-top {
-    height: 42.5%;
+    height: 50%;
 }
 
 .card-title {
@@ -249,6 +245,10 @@ li {
 /*MEDIA QUERY*/
 
 @media screen and (max-width: 768px) {
+    .divbotao{
+        text-align: center;
+    }
+
     .container {
         flex-direction: column;
         align-items: center;
