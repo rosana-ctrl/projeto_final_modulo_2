@@ -1,5 +1,5 @@
 
-const btn = document.querySelector('#btn')
+const btn = document.querySelector('#btn1')
 const popup = document.querySelector('#pop-wrapper')
 
 
