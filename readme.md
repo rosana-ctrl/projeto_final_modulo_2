@@ -137,6 +137,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## 📝 Licença
 
-Projeto Feito por Brenda, Igo, Lisandra, Luis e Rosana para Resilia Educação.
+Projeto Feito por Brenda, Igor, Lisandra, Luis e Rosana para Resilia Educação.
 
 ---
