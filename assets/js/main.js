@@ -1,28 +1,28 @@
 $("#Home").click((event) => {
     event.preventDefault();
 
-    location.replace("../index.html")
+    location.replace("./index.html")
 
 })
 
 $("#contato").click((event) => {
     event.preventDefault();
 
-    location.replace("../html/contatos.html")
+    location.replace("./html/contatos.html")
 
 })
 
 $("#planosHeader").click((event) => {
     event.preventDefault();
 
-    location.replace("../html/planos.html")
+    location.replace("./html/planos.html")
 
 })
 
 $("#botaoLogin").click((event) => {
     event.preventDefault();
 
-    location.replace("../html/login.html")
+    location.replace("./html/login.html")
 
 })
 
@@ -36,6 +36,6 @@ $("#btn-close").click((event) => {
 $("#btn").click((event) => {
     event.preventDefault();
 
-    location.replace("../html/cadastro.html")
+    location.replace("./html/cadastro.html")
 
 })
