@@ -29,12 +29,12 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link active" href="#" id="Home">Home <span class="sr-only">(current)</span></a>
                     <a class="nav-link" href="#" id="contato">Contato</a>
-                    <a class="nav-link" href="./html/planos.html">Planos</a>
+                    <a class="nav-link" href="#" id="planosHeader">Planos</a>
                 </div>
                 <div class="divbotao">
-                    <button class="btn btn btn-primary" type="submit" id="botaoLogin">Entrar | Cadastre-se</button>
+                    <button class="btn btn btn-primary" type="button" id="botaoLogin">Entrar | Cadastre-se</button>
                 </div>
             </div>
         </nav>
@@ -67,6 +67,10 @@
                             Plano simples e nosso plano completo que conta com todos os benefícios que você
                             programador(a) precisa.
                         </p>
+                        <div class="btnSaibaMais">
+                            <button type="button" class="btn btn-primary btn-lg rounded-pill" id="saibaMais">Saiba
+                                mais</button>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
@@ -82,6 +86,10 @@
                             <li>Códigos passíveis de refatoração;</li>
                             <li>Problemas de indentação.</li>
                         </ul>
+                        <div class="btnSaibaMais">
+                            <button type="button" class="btn btn-primary btn-lg rounded-pill" id="saibaMais">Saiba
+                                mais</button>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
@@ -93,6 +101,10 @@
                             seja acessível para todos, dos iniciantes aos mais experientes. Através da construção
                             colaborativa, entre nossa equipe e programadores que, assim como nós buscam facilitar o dia
                             a dia do programador (a).</p>
+                        <div class="btnSaibaMais">
+                            <button type="button" class="btn btn-primary btn-lg rounded-pill" id="saibaMais">Saiba
+                                mais</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -117,9 +129,13 @@
         </section>
         <section class="end">
             <div class="containerEnd">
-                <h3>Dê o primeiro passo para fazer parte dessa comunidade!</h3>
-                <button type="button" class="btn btn-primary btn-lg rounded-pill" id="cadastro">ENTRAR PARA A LISTA DE
-                    ESPERA</button>
+                <div class="box">
+                    <h3>Dê o primeiro passo para fazer parte dessa comunidade!</h3>
+                    <div class="btnBox">
+                        <button type="button" class="btn btn-primary btn-lg rounded-pill" id="cadastro">ENTRAR PARA A
+                            LISTA DE ESPERA</button>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -172,7 +188,7 @@
         integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous">
         </script>
     <script src="../assets/js/jquery-3.6.0.min.js"></script>
-    <script src="../assets/js/main.js"></script>
+    <script src="./assets/js/indexMain.js"></script>
 
 </body>
 
