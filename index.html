@@ -30,11 +30,11 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link active" href="./index.html">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-link" href="./paginaDeContatos/index.html">Contato</a>
-                    <a class="nav-link" href="./paginaDePlanos/planos.html">Planos</a>
+                    <a class="nav-link" href="#" id="contato">Contato</a>
+                    <a class="nav-link" href="./html/planos.html">Planos</a>
                 </div>
                 <div class="divbotao">
-                    <a class="btn btn-primary" id="botaoLogin" href="./paginaDeLogin/html/login.html" role="button">Entrar | Cadastre-se</a>
+                    <button class="btn btn btn-primary" type="submit" id="botaoLogin">Entrar | Cadastre-se</button>
                 </div>
             </div>
         </nav>
@@ -62,22 +62,19 @@
                     <div class="card-body">
                         <h5 class="card-title"><strong>Conheça os planos Code C</strong></h5>
                         <p class="card-text">Planos completos e diferenciados para a sua educação e o melhor, com
-                            valores que cabem no seu bolso!</p>
+                            valores que cabem no seu bolso!<br> contamos com pllanos de colaborador,
+                            onde você contribui com o crescimento da comunidade, ajudando outras pessoas.<br>
+                            Plano simples e nosso plano completo que conta com todos os benefícios que você
+                            programador(a) precisa.
+                        </p>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="./assets/images/JavaScript frameworks.svg" class="card-img-top2" alt="Nossas linguagens">
+                    <img src="./assets/images/JavaScript frameworks.svg" class="card-img-top" alt="Nossas linguagens">
                     <div class="card-body">
                         <h5 class="card-title"><strong>Conheça as linguagens</strong></h5>
                         <p class="card-text">Contamos com soluções completas para as linguagens mais usadas no mercado
-                            de trabalho.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="./assets/images/solution-cuate.svg" class="card-img-top2" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title"><strong>Soluções em um só lugar</strong></h5>
-                        <p class="card-text">Análise de códigos das seguintes linguagens: JavaScript, PHP e Python.
+                            de trabalho. Análise de códigos das seguintes linguagens: JavaScript, PHP e Python.
                             Ferramenta que realiza varreduras em toda a estrutura de seu código e identifica:</p>
                         <ul>
                             <li>Erros de sintaxe;</li>
@@ -85,6 +82,17 @@
                             <li>Códigos passíveis de refatoração;</li>
                             <li>Problemas de indentação.</li>
                         </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./assets/images/solution-cuate.svg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>Soluções em um só lugar</strong></h5>
+                        <p class="card-text">Somos uma empresa que visa atender as necessidades do mercado de
+                            programação. Queremos construir junto a comunidade uma ferramenta de análise de código, que
+                            seja acessível para todos, dos iniciantes aos mais experientes. Através da construção
+                            colaborativa, entre nossa equipe e programadores que, assim como nós buscam facilitar o dia
+                            a dia do programador (a).</p>
                     </div>
                 </div>
             </div>
@@ -110,10 +118,8 @@
         <section class="end">
             <div class="containerEnd">
                 <h3>Dê o primeiro passo para fazer parte dessa comunidade!</h3>
-                <a href="#">
-                    <button type="button" class="btn btn-primary btn-lg rounded-pill">ENTRAR PARA A LISTA DE
-                        ESPERA</button>
-                </a>
+                <button type="button" class="btn btn-primary btn-lg rounded-pill" id="cadastro">ENTRAR PARA A LISTA DE
+                    ESPERA</button>
             </div>
         </section>
 
@@ -165,6 +171,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
         integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous">
         </script>
+    <script src="../assets/js/jquery-3.6.0.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+
 </body>
 
 </html>
