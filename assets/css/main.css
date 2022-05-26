@@ -52,6 +52,17 @@ textarea::placeholder {
     text-align: center;
 }
 
+#botaoLogin {
+    color: #32D4E7;
+    background-color: #000102;
+    border-color: #32D4E7;
+}
+
+#botaoLogin:hover {
+    color: #ffffff;
+    background-color: #32D4E7;
+}
+
 #botaoLogin:hover {
     background-color: #FFFFFF;
     color: #32D4E7;
