@@ -88,6 +88,15 @@ p {
     }
 
     footer{
+
+        margin: 0;
+    }
+
+    ul{
+        padding: 0;
+        margin: 20px;
+
         padding: 1;
+master
     }
 }
