@@ -1,3 +1,9 @@
+$("#Home").click((event) => {
+    event.preventDefault();
+
+    location.replace("../index.html")
+
+})
 
 $("#contato").click((event) => {
     event.preventDefault();
@@ -6,46 +12,30 @@ $("#contato").click((event) => {
 
 })
 
+$("#planosHeader").click((event) => {
+    event.preventDefault();
 
+    location.replace("../html/planos.html")
 
+})
 
+$("#botaoLogin").click((event) => {
+    event.preventDefault();
 
-// //funcoes header//
-// function home() {
-//     location.assign("");
-// }
+    location.replace("../html/login.html")
 
-// function contato() {
-//     location.assign("");
-// }
+})
 
-// function planos() {
-//     location.assign("");
-// }
+$("#btn-close").click((event) => {
+    event.preventDefault();
 
-// function entrar() {
-//     location.assign("");
-// }
+    location.replace("../index.html")
 
-// //funcoao logo// 
-// function home() {
-//     location.assign("");
-// }
+})
 
-// //funcao cadastro Rosana//
-// function cadastro() {
-//     location.assign("");
-// }
+$("#btn").click((event) => {
+    event.preventDefault();
 
-// //funcao de login Lisandra//
-// function cadastro() {
-//     location.assign("../cadastro.html");
-// }
+    location.replace("../html/cadastro.html")
 
-// function recuperarSenha() {
-//     location.assign("./recuperarSenha.html");
-// }
-
-// function home() {
-//     location.assign("./recuperarSenha.html");
-// }
+})

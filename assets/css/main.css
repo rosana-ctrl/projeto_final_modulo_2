@@ -52,6 +52,17 @@ textarea::placeholder {
     text-align: center;
 }
 
+#botaoLogin {
+    color: #32D4E7;
+    background-color: #000102;
+    border-color: #32D4E7;
+}
+
+#botaoLogin:hover {
+    color: #ffffff;
+    background-color: #32D4E7;
+}
+
 #botaoLogin:hover {
     background-color: #FFFFFF;
     color: #32D4E7;
@@ -99,7 +110,7 @@ footer {
 }
 
 .icone {
-    height: 150px;
+    height: 140px;
 }
 
 li {
@@ -115,4 +126,51 @@ li {
 .btn:hover {
     color: #ffffff;
     background-color: #32D4E7;
+}
+
+@media (max-width: 768px) {
+
+
+    footer {
+        font-size: smaller;
+        height: 40%;
+        width: 100%;
+        flex-direction: column;
+        margin: 5px;
+        flex-wrap: nowrap;
+        font-size: 12px;
+    }
+
+    h6 {
+        font-size: 10px;
+
+    }
+
+    .f2 {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: unset;
+        text-align: center;
+        font-size: 12px;
+        vertical-align: text-top;
+    }
+
+    .icone {
+        max-width: 100px;
+        max-height: 50px;
+        width: auto;
+        height: auto;
+    }
+
+    .btn {
+        color: #32D4E7;
+        background-color: #000102;
+        border-color: #32D4E7;
+    }
+
+    .btn:hover {
+        color: #ffffff;
+        background-color: #32D4E7;
+    }
 }
