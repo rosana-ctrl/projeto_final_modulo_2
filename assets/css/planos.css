@@ -21,9 +21,13 @@ body {
     font-family: 'Forum', cursive;
 }
 
-#compare, #um , #dois, #tres, #quatro, #cinco, #seis, #free, #pro, #enter {
+#compare, #colab, #simp, #comp {
     color: white;
     font-family: 'Inter', sans-serif;
+}
+
+#tbody, #tbodyUm {
+    color: white;
 }
 
 #compare {
@@ -37,7 +41,7 @@ body {
 
 /* HEADER */
 #navbar {
-    width: 100vw;
+    width: 100%;
     background-color: #000102;
 }
 
@@ -67,9 +71,37 @@ a:hover {
 
 }
 
+.navbar-nav .nav-link {
+    text-align: center;
+}
+
+/* botao editado teste */
+#botaoLogin {
+    background-color: #32D4E7;
+    border: none;
+}
+
+/* testes que eu fiz no hover do botao */
+#botaoLogin:hover{
+    background-color:  #FFFFFF;
+    color: #32D4E7;
+}
+
+.divbotao{
+    padding-right: 1em;
+    padding-left: 0.7em;
+    text-align: center;
+}
+
+img {
+    width: 120px;
+    padding-left: 1em;
+}
+
+
 /* FOOTER */
 footer {
-    /* width: 100vw; */
+    width: 100%;
     height: 25vh;
     display: flex;
     flex-direction: row;
@@ -98,25 +130,15 @@ footer {
     height: 150px;
 }
 
-/* botao editado teste */
-#botaoLogin {
-    background-color: #32D4E7;
-    border: none;
+li {
+    list-style-type: none;
 }
 
-/* testes que eu fiz no hover do botao */
-#botaoLogin:hover{
-    background-color:  #FFFFFF;
-    color: #32D4E7;
-}
-.divbotao{
-    padding-right: 1em;
-    padding-left: 0.7em;
-}
+
 
 
 @media screen and (max-width: 768px) {
-
+    
 footer {
     height: 100vh;
     flex-direction: column;
