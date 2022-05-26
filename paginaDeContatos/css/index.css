@@ -12,18 +12,12 @@ body {
     font-family :  'Inter' , sans-serif serifa;
 }
 
+/*Header*/
 #navbar {
     width: 100%;
     background-color: #000102;
 }
 
-#navbarNavAltMarkup {
-    justify-content: flex-end;
-    font-family: 'Inter', sans-serif;
-}
-.navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(50, 212, 231)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-} /* alteração do botao hamburguer*/
 
 a {
     color: #32D4E7;
@@ -33,18 +27,8 @@ a:hover {
     color: #FFFFFF;
 }
 
-/* alterei as cores dos links e hover */
-.nav-link{
-    color: #32D4E7;
-}
-
-.nav-link:hover{
-    color: #FFFFFF;
-
-}
-
-.navbar-nav .nav-link {
-    text-align: center;
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(50, 212, 231)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 #botaoLogin {
@@ -52,31 +36,26 @@ a:hover {
     border: none;
 }
 
-#botaoLogin:hover{
-    background-color:  #FFFFFF;
+#botaoLogin:hover {
+    background-color: #FFFFFF;
     color: #32D4E7;
 }
-.divbotao{
+
+.navbar-nav .nav-link {
+    text-align: center;
+}
+
+.divbotao {
     padding-right: 1em;
     padding-left: 0.7em;
     text-align: center;
 }
 
-img {
+.logoHeader {
     width: 120px;
     padding-left: 1em;
 }
 
-
-h2 {
-    margin: 15px;
-    cursor: pointer;
-}
-
-h2:hover {
-    color: #32d4e7;
-
-}
 
 
 .container {
@@ -342,9 +321,30 @@ a{
         font-size: 12px;
     }
 
+    main {
+        width: 100%;
+    }
+
+    img {
+        width: 135px;
+        height: 140px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .conteudo {
+        width: 80%;
+    }
+
     .contato {
-        width: 110%;
+        width: 100%;
         
+    }
+
+    .form {
+        width: 72%;
     }
 }
 
@@ -355,7 +355,7 @@ a{
     }
 
     img {
-        width: 125px;
+        width: 135px;
         height: 140px;
     }
     .container {
@@ -363,16 +363,49 @@ a{
     }
 
     .conteudo {
-        width: 95%;
+        width: 90%;
+        margin-left: 5px;
 }
 
  .contato {
     width: 100%;
-
+   
 }
 
 .forms {
-    width:90%;
+    width:73%;
 }
 
+footer {
+    width: 100%;
+}
+
+}
+
+
+@media(max-width:321px) {
+    body {
+        width: 100%;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .container {
+       width: 90%;
+    }
+
+    .conteudo {
+        width: 100%;
+    }
+
+    .contato {
+        width: 100%;
+    }
+
+    .forms {
+        width: 75%;
+        margin: 32px;
+    }
 }
