@@ -10,13 +10,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="bootstrap-4.6.1-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/login.css">
-    <link rel="icon" type="imagem/png" href="./img/icon.png">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/login.css">
 
+    <script src="../assets/js/jquery-3.6.0.min.js"></script>
     <script src="../assets/js/jquery.validate.min.js"></script>
     <script src="../assets/js/jquery.validate.pt-br.js"></script>
 
+    <script src="../assets/js/login.js" defer></script>
+    <script src="../assets/js/main.js" defer></script>
+
+    <link rel="icon" type="imagem/png" href="../assets/images/icon.png">
     <title>Code C</title>
 </head>
 
@@ -24,86 +28,90 @@
 
     <header>
         <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="./index.html">
-                <img src="../img/logo.png" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active" href="#" id="Home" onclick="home()">Home <span
-                            class="sr-only"></span></a>
-                    <a class="nav-link" href="#" id="contato" onclick="contato()">Contato</a>
-                    <a class="nav-link" href="#" id="planosHeader" onclick="planos()">Planos</a>
-                </div>
+            <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="./cadastro.html">
 
-                <div class="divbotao">
-                    <button class="btn btn btn-primary" type="submit" id="botaoLogin" onclick="entrar()">Entrar |
-                        Cadastre-se</button>
-                </div>
+                    <img class="imgIcon" src="../assets/images/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" href="#" id="Home">Home <span class="sr-only"></span></a>
+                        <a class="nav-link" href="#" id="contato">Contato</a>
+                        <a class="nav-link" href="#" id="planosHeader">Planos</a>
+                    </div>
+                    <div class="divbotao">
+                        <button class="btn btn btn-primary" type="submit" id="botaoLogin">Entrar | Cadastre-se</button>
+                    </div>
 
-            </div>
+                </div>
         </nav>
     </header>
 
-    <div class="container-fluid " id="cardsELogo">
+    <main>
 
-        <center><img src="../img/logo.png" class="card-img-top" alt="" id="logo"></center>
+        <div class="container-fluid " id="cardsELogo">
 
-        <div class="row justify-content-center  " id="cards">
+            <center><img src="../assets/images/logo.png" class="card-img-top" alt="" id="logo"></center>
 
-            <div class="col-4 " id="telaLogin">
+            <div class="row justify-content-center  " id="cards">
 
-                <div class="card-body ">
-                    <form id="">
+                <div class="" id="telaLogin">
 
-                        <div class="form-group">
-                            <h1>Ainda não se cadastrou?</h1>
-                            <center>
-                                <p id="seta">&#10549</p>
-                            </center>
-                        </div>
+                    <div class="card-body " id="cardBody">
+                        <form id="">
 
-                        <button type="submit" class="btn btn-outline-info btn-block" id="btn"
-                            onclick="cadastro()">Registre-se aqui</button>
+                            <div class="form-group" id="formGroup">
+                                <h1>Ainda não se cadastrou?</h1>
+                                
+                                    <p id="seta">&#10549</p>
+                                
+                            </div>
 
-                    </form>
+                            <button type="submit" class="btn btn-outline-info btn-block" id="btn"
+                                onclick="cadastro()">Registre-se aqui</button>
+
+                        </form>
+                    </div>
                 </div>
-            </div>
 
-            <div class="col-4" id="telaLogin">
-                <div class="card-body">
-                    <form id="">
-                        <h1>Login in</h1>
+                <div class="" id="telaLogin">
+                    <div class="card-body">
+                        <form id="">
+                            <h1>Login in</h1>
 
-                        <div class="form-group ">
-                            <label>Usuário</label>
-                            <input type="email" class="form-control" id="" aria-describedby="emailHelp"
-                                placeholder="Informe seu e-mail"
-                                style="background: #000102; border: 1px solid #32D4E7;">
-                        </div>
+                            <div class="form-group ">
+                                <label>Usuário</label>
+                                <input type="email" class="form-control" id="inputs" aria-describedby="emailHelp"
+                                    placeholder="Informe seu e-mail"
+                                    style="background: #000102; border: 1px solid #32D4E7;">
+                            </div>
 
-                        <div class="form-group">
-                            <label>Senha</label>
-                            <input type="password" class="form-control" id="" placeholder="Insira sua senha"
-                                style="background: #000102; border: 1px solid #32D4E7;">
-                            <a type="submit" id="senha" onclick="recuperarSenha()">Esqueci minha senha</a>
-                        </div>
+                            <div class="form-group">
+                                <label>Senha</label>
+                                <input type="password" class="form-control" id="inputs" placeholder="Insira sua senha"
+                                    style="background: #000102; border: 1px solid #32D4E7;">
+                                <a type="submit" id="senha" onclick="recuperarSenha()">Esqueci minha senha</a>
+                            </div>
 
-                        <button type="submit" class="btn btn-outline-info btn-block" id="btn">Hora de programar</button>
+                            <button type="submit" class="btn btn-outline-info btn-block" id="btn">Hora de
+                                programar</button>
 
-                    </form>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </main>
 
     <main>
         <footer>
             <div class="f1">
-                <img class="icone" src="../img/icon.png">
+                <img class="icone" src="../assets/images/icon.png">
                 <h6>© 2022 Code C <br> Todos os direitos reservados</h6>
             </div>
             <div class="f2">
@@ -138,7 +146,7 @@
 
     </main>
 
-    <script src="../js/login.js"></script>
+    <script src="../assets/js/main.js"></script>
 </body>
 
 </html>
