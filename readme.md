@@ -14,8 +14,7 @@
 </p>
 
 ## 💻 Sobre o Projeto
-💥 CodeC - blablablab blablabla lbalblablba lbblabal babalbalbal balbalblablabl blablablab albab alb alb ab alb al bla]
-bambambma bma bmambmabmambma bmabab,ab,a,babkabkakbakbkabkab  bkbakb ab akb b ka bka b dashdushadsa.
+💥 CodeC - Projeto criado com a finalidade de ajudar e facilitar novos e mais experientes programadores a terem revisão e alterações nos seus codigos com o objetivo de deixa-los, nas linguagens disponiveis pelo CodeC, mais limpos e claros. Projeto criado com o objetivo em ter um preço mais acessivo e participação da comunidade.
 
 Projeto com finalidade de aprimorar as habilidades voltadas para desenvolvimento front-end.
 
