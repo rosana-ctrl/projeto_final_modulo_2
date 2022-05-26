@@ -136,7 +136,7 @@ h2 {
 }
 
 .card-img-top {
-    height: 50%;
+    height: 40%;
 }
 
 .card-title {
@@ -145,8 +145,34 @@ h2 {
 
 .card-body {
     text-align: justify;
+    height: 100%;
 }
 
+.card-text {
+    margin: 0;
+}
+
+.btnSaibaMais {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#saibaMais {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    margin: 10px;
+    color: #32D4E7;
+    background-color: #000102;
+    border-color: #32D4E7;
+}
+
+#saibaMais:hover {
+    color: #ffffff;
+    background-color: #32D4E7;
+}
 
 /*sessão das linguagens*/
 .middle {
@@ -203,6 +229,19 @@ h3 {
     justify-content: space-evenly;
     text-align: center;
     align-items: center;
+    border-radius: 15px;
+    border-color: #32D4E7;
+}
+
+.box {
+    height: 80%;
+    width: 50%;
+    border-style: solid;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-color: #32D4E7;
 }
 
 
@@ -287,10 +326,15 @@ li {
         width: 90vw;
     }
 
+    /* caixa de lista de espera*/
+
     h3 {
-        font-size: 45px;
+        font-size: 40px;
     }
 
+    .box {
+        width: 80%;
+    }
     /*MEDIA DO FOOTER*/
 
     footer {
