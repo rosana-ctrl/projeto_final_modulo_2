@@ -10,6 +10,7 @@ body {
     width: 100%;
     color: white;
     font-family :  'Inter' , sans-serif serifa;
+    margin-top: 0;
 }
 
 
@@ -36,7 +37,7 @@ a:hover {
     color: #FFFFFF;
 }
 
-/* alterei as cores dos links e hover */
+
 .nav-link {
     color: #32D4E7;
 }
@@ -56,6 +57,7 @@ a:hover {
 
 #botaoLogin:hover {
     background: #32D4E7;
+    color: #FFFFFF;
 }
 
 .navbar-nav .nav-link.active {
@@ -189,7 +191,7 @@ button {
     margin-top: 10px;
 }
 
-/* FOOTER */
+
 footer {
     width: 100%;
     height: 20vh;
@@ -199,6 +201,7 @@ footer {
     align-items: center;
     color: #FFFFFF;
     background-color: #0E3347;
+    position: 0;
 
 }
 
@@ -217,6 +220,8 @@ footer {
     align-items: baseline;
     text-align: justify;
 }
+
+
 
 .icone {
     height: 140px;
