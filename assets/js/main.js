@@ -55,12 +55,6 @@ $("#btn-popup").click((event) => {
 
 })
 
-$("#btn1").click((event) => {
-    event.preventDefault();
-
-    location.replace("../index.html")
-
-})
 
 $("#btnComece").click((event) => {
     event.preventDefault();
