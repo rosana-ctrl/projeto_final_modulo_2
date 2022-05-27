@@ -66,7 +66,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 #### **Utilitários**
 
--   Protótipo:  **[Canva](https://www.canva.com/)**  →  **[CodeC](https://www.figma.com/file/D41nbP0LDvkQfpi2z7JcjL/Hades-%7C-Barber-Lounge?node-id=1%3A2)**
+-   Protótipo:  **[Canva](https://www.canva.com/)**  →  **[CodeC](https://www.canva.com/design/DAFBE91USjI/qRqv9aWkErwQ8mB1omT0HQ/edit?utm_content=DAFBE91USjI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)**
 -   API:  **[ViaCEP](https://viacep.com.br/)**
 -   Editor:  **[Visual Studio Code](https://code.visualstudio.com/)**
 -   Fontes:  **[Forum](https://fonts.google.com/specimen/Forum?query=forum)**, **[Inter](https://fonts.google.com/specimen/Inter?query=inter)**

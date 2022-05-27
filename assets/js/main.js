@@ -40,7 +40,9 @@ $("#btn").click((event) => {
 
 })
 
+
 $("#esquecerSenha").click((event) => {
+
     event.preventDefault();
 
     location.replace("../html/recuperarSenha.html")
@@ -61,4 +63,11 @@ $("#btn1").click((event) => {
 
 })
 
+
+$("#btnComece").click((event) => {
+    event.preventDefault();
+
+    location.replace("../html/cadastro.html")
+
+})
 
