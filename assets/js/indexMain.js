@@ -34,15 +34,15 @@ $("#cadastro").click((event) => {
 
 $("#btnSaibaMais").click((event) => {
     event.preventDefault();
-    location.replace("../html/cadastro.html")
+    location.replace("./html/planos.html")
 })
 
 $("#btnSaibaMais1").click((event) => {
     event.preventDefault();
-    location.replace("../html/cadastro.html")
+    location.replace("./html/planos.html")
 })
 
 $("#btnSaibaMais2").click((event) => {
     event.preventDefault();
-    location.replace("../html/cadastro.html")
+    location.replace("./html/planos.html")
 })
