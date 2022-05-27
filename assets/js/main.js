@@ -40,9 +40,34 @@ $("#btn").click((event) => {
 
 })
 
-$("#senha").click((event) => {
+
+$("#esquecerSenha").click((event) => {
+
     event.preventDefault();
 
     location.replace("../html/recuperarSenha.html")
 
 })
+
+$("#btn-popup").click((event) => {
+    event.preventDefault();
+
+    location.replace("../index.html")
+
+})
+
+$("#btn1").click((event) => {
+    event.preventDefault();
+
+    location.replace("../index.html")
+
+})
+
+
+$("#btnComece").click((event) => {
+    event.preventDefault();
+
+    location.replace("../html/cadastro.html")
+
+})
+

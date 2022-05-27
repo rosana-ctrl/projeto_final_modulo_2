@@ -26,7 +26,7 @@ h1 {
     align-items: center;
 }
 
-#senha:hover {
+#esquecerSenha:hover {
     color: #32D4E7;
 }
 
@@ -49,4 +49,14 @@ h1 {
 .container {
     max-width: 100%;
     width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+
+    footer{
+        margin: 0;
+        height: 220px;
+    }
+
+
 }
