@@ -46,3 +46,17 @@ $("#senha").click((event) => {
     location.replace("../html/recuperarSenha.html")
 
 })
+
+$("#btn-popup").click((event) => {
+    event.preventDefault();
+
+    location.replace("../index.html")
+
+})
+
+$("#btn1").click((event) => {
+    event.preventDefault();
+
+    location.replace("../index.html")
+
+})
