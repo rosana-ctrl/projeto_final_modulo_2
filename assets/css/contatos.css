@@ -13,6 +13,9 @@ body {
     margin-top: 0;
 }
 
+.imgIcon {
+    width: 120px;
+}
 
 #navbar {
     width: 100%;
