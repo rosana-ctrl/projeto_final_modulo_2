@@ -61,3 +61,10 @@ $("#btn1").click((event) => {
     location.replace("../index.html")
 
 })
+
+$("#btnComece").click((event) => {
+    event.preventDefault();
+
+    location.replace("../html/cadastro.html")
+
+})
