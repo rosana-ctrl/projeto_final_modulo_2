@@ -39,3 +39,17 @@ $("#btn").click((event) => {
     location.replace("./html/cadastro.html")
 
 })
+
+$("#btn-popup").click((event) => {
+    event.preventDefault();
+
+    location.replace("../index.html")
+
+})
+
+$("#btn1").click((event) => {
+    event.preventDefault();
+
+    location.replace("../index.html")
+
+})
