@@ -39,3 +39,11 @@ $("#btn").click((event) => {
     location.replace("../html/cadastro.html")
 
 })
+
+
+$("#senha").click((event) => {
+    event.preventDefault();
+
+    location.replace("../html/recuperarSenha.html")
+
+})
