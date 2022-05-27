@@ -159,7 +159,7 @@ h2 {
     align-items: center;
 }
 
-#saibaMais {
+#btnSaibaMais {
     position: absolute;
     bottom: 0;
     text-align: center;
@@ -169,7 +169,37 @@ h2 {
     border-color: #32D4E7;
 }
 
-#saibaMais:hover {
+#btnSaibaMais:hover {
+    color: #ffffff;
+    background-color: #32D4E7;
+}
+
+#btnSaibaMais1 {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    margin: 10px;
+    color: #32D4E7;
+    background-color: #000102;
+    border-color: #32D4E7;
+}
+
+#btnSaibaMais1:hover {
+    color: #ffffff;
+    background-color: #32D4E7;
+}
+
+#btnSaibaMais2 {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    margin: 10px;
+    color: #32D4E7;
+    background-color: #000102;
+    border-color: #32D4E7;
+}
+
+#btnSaibaMais2:hover {
     color: #ffffff;
     background-color: #32D4E7;
 }

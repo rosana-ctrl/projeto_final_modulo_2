@@ -30,5 +30,19 @@ $("#cadastro").click((event) => {
     event.preventDefault();
 
     location.replace("./html/cadastro.html")
+})
 
+$("#btnSaibaMais").click((event) => {
+    event.preventDefault();
+    location.replace("../html/cadastro.html")
+})
+
+$("#btnSaibaMais1").click((event) => {
+    event.preventDefault();
+    location.replace("../html/cadastro.html")
+})
+
+$("#btnSaibaMais2").click((event) => {
+    event.preventDefault();
+    location.replace("../html/cadastro.html")
 })
