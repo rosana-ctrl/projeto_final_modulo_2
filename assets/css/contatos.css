@@ -9,7 +9,7 @@ body {
     background-size: cover;
     width: 100%;
     color: white;
-    font-family :  'Inter' , sans-serif serifag;
+    font-family: 'Inter', sans-serif serifag;
     margin-top: 0;
 }
 
@@ -348,12 +348,12 @@ a {
     top: 5px;
     right: 10px;
     cursor: pointer;
-    color: black;
+    color: #000102;
 
 }
 
 .popup-content {
-    color: black;
+    color: #000102;
 }
 
 
