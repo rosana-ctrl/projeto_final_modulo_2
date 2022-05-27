@@ -2,7 +2,7 @@
 body {
     font-family: 'Inter', sans-serif;
     background-color: #000102;
-    margin: auto;
+    /* margin: auto; */
 }
 
 /*Cards de cadastro e login*/
@@ -47,6 +47,16 @@ h1 {
 }
 
 .container {
-    max-width:100%;
+    max-width: 100%;
     width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+
+    footer{
+        margin: 0;
+        height: 220px;
+    }
+
+
 }
