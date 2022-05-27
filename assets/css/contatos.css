@@ -9,10 +9,13 @@ body {
     background-size: cover;
     width: 100%;
     color: white;
-    font-family :  'Inter' , sans-serif serifa;
+    font-family :  'Inter' , sans-serif serifag;
     margin-top: 0;
 }
 
+.imgIcon {
+    width: 120px;
+}
 
 #navbar {
     width: 100%;
@@ -200,7 +203,7 @@ footer {
     align-items: center;
     color: #FFFFFF;
     background-color: #0E3347;
-    position: 0;
+    bottom: 0;
 
 }
 
