@@ -17,8 +17,8 @@
     <script src="../assets/js/jquery.validate.min.js"></script>
     <script src="../assets/js/jquery.validate.pt-br.js"></script>
 
-    <script src="../assets/js/login.js" defer></script>
     <script src="../assets/js/main.js" defer></script>
+    <script src="../assets/js/login.js" defer></script>
 
     <link rel="icon" type="imagem/png" href="../assets/images/icon.png">
     <title>Code C</title>
@@ -67,38 +67,39 @@
 
                             <div class="form-group" id="formGroup">
                                 <h1>Ainda não se cadastrou?</h1>
-                                
-                                    <p id="seta">&#10549</p>
-                                
+
+                                <p id="seta">&#10549</p>
+
                             </div>
 
-                            <button type="submit" class="btn btn-outline-info btn-block" id="btn"
+                            <button type="button" class="btn btn-outline-info btn-block" id="btn"
                                 onclick="cadastro()">Registre-se aqui</button>
 
                         </form>
                     </div>
                 </div>
 
-                <div class="" id="telaLogin">
+                <div id="telaLogin">
                     <div class="card-body">
-                        <form id="">
-                            <h1>Login in</h1>
+                        <form id="formLogin">
+                            <h1>Login</h1>
 
                             <div class="form-group ">
                                 <label>Usuário</label>
-                                <input type="email" class="form-control" id="inputs" aria-describedby="emailHelp"
-                                    placeholder="Informe seu e-mail"
-                                    style="background: #000102; border: 1px solid #32D4E7;">
+                                <input type="email" name="user" class="form-control" placeholder="Informe seu e-mail"
+                                    style="background: #000102; border: 1px solid #32D4E7;" required />
                             </div>
 
                             <div class="form-group">
                                 <label>Senha</label>
-                                <input type="password" class="form-control" id="inputs" placeholder="Insira sua senha"
-                                    style="background: #000102; border: 1px solid #32D4E7;">
+                                <input type="password" name=˜password˜ class="form-control"
+                                    placeholder="Insira sua senha"
+                                    style="background: #000102; border: 1px solid #32D4E7;" required />
+                                <br />
                                 <a type="submit" id="esquecerSenha">Esqueci minha senha</a>
                             </div>
 
-                            <button type="submit" class="btn btn-outline-info btn-block" id="btn">Hora de
+                            <button type="button" class="btn btn-outline-info btn-block" id="btnStart">Hora de
                                 programar</button>
 
                         </form>
