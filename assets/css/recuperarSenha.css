@@ -78,6 +78,11 @@ p {
 
 }
 
+footer{
+    position: fixed;
+    bottom: 0;
+}
+
 @media screen and (max-width: 768px) {
     #recuperarSenha{
         width: 300px;
@@ -95,8 +100,6 @@ p {
     ul{
         padding: 0;
         margin: 20px;
-
         padding: 1;
-master
     }
 }
