@@ -12,13 +12,13 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-#btn {
+#btnComece {
     color: #32D4E7;
     background-color: #000102;
     border-color: #32D4E7;
 }
 
-#btn:hover {
+#btnComece:hover {
     color: #ffffff;
     background-color: #32D4E7;
 }
