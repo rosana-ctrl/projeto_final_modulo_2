@@ -18,6 +18,18 @@ body {
     border-color: #32D4E7;
 }
 
+#btnComece1 {
+    color: #32D4E7;
+    background-color: #000102;
+    border-color: #32D4E7;
+}
+
+#btnComece2 {
+    color: #32D4E7;
+    background-color: #000102;
+    border-color: #32D4E7;
+}
+
 #btnComece:hover {
     color: #ffffff;
     background-color: #32D4E7;

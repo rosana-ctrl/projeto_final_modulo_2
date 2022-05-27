@@ -43,3 +43,13 @@ $("#btnComece").click((event) => {
     event.preventDefault();
     location.replace("../html/cadastro.html")
 })
+
+$("#btnComece1").click((event) => {
+    event.preventDefault();
+    location.replace("../html/cadastro.html")
+})
+
+$("#btnComece2").click((event) => {
+    event.preventDefault();
+    location.replace("../html/cadastro.html")
+})
