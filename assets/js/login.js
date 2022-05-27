@@ -1,5 +1,5 @@
 /* Poupap ao solicitar recuperação de senha*/
-const btn = document.querySelector('#btn')
+const btn = document.querySelector('#btn-popup')
 const popup = document.querySelector('#pop-wrapper')
 
 btn.addEventListener('click', (e) => {
@@ -13,4 +13,8 @@ popup.addEventListener('click', event => {
 
         popup.style.display = 'none'
     }
+})
+
+$("#pop-wrapper").click(function (e) {
+    $("#pop-wrapper").hide();
 })
